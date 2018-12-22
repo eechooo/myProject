@@ -15,6 +15,8 @@ tag: jekyll
 <li><a href="#fifth">Leetcode IP to CIDR</a></li>
 <li><a href="#sixth">Menu Order(Double Combination Sum)</a></li>
 <li><a href="#seventh">Leetcode 269. Alien Dictionary</a></li>
+<li><a href="#eighth">Parse CSV</a></li>
+<li><a href='nineth'>Perference List</a></li>
 
 
 
@@ -218,3 +220,54 @@ print getCombos([10.02, 1.11, 2.22, 3.01, 4.02, 2.00, 5.03], 7.03)
 
 Round 2: Given a flight itinerary consisting of starting city, destination city, and ticket price (2d list) - find the optimal price flight path to get from start to destination. (A variation of Dynamic Programming Shortest Path) Given a list of sorted words from an alien dictionary, find the order of the alphabet. (Alien Dictionary Topological Sort - https://discuss.leetcode.com/topic/22476/16-18-lines-python-30-lines-c)
 
+<div>
+<h3>Parse CSV</h3>
+</div>
+<div>
+<h3 id = 'nineth'>Perference List</h3>
+Description: Given a list of everyone's preferred city list, output the city list following the order of everyone's preference order.
+For example, input is [[3, 5, 7, 9], [2, 3, 8], [5, 8]]. One of possible output is [2, 3, 5, 8, 7, 9].
+
+这道题目是用拓扑排序来做, 向面试官解释的时候, 可以先举个简单的例子, for example, 当只有一个list的时候， 比如[1,2,3]最后的结果就是 1,2,3, 当有2个list的时候, for example, [1,2,3],[4,5],就是1,4,2,5,3 由此可以推出这里我们可以构建一个图, 如果图的indegrees是0的时候，我就可以当前的节点加进queue里面，由此可以推导出这道题可以用拓扑排序来做
+
+code如下
+{% highlight python %}
+# Hello World program in Python
+import collections
+
+def findOrder(preferenceLists):
+
+    nodes = collections.defaultdict(set)
+    indegree = collections.defaultdict(int)
+    for preference in preferenceLists:
+        for i in range(len(preference) - 1):
+            from_node  = preference[i]
+            to_node  = preference[i+1]
+            # if from_node not in nodes
+            #     nodes.get(from_node).add(to_node)
+            if from_node not in indegree:
+                indegree[from_node] = 0
+            indegree[to_node] += 1
+            nodes[from_node].add(to_node)
+    
+    print indegree
+    queue = []
+    res = []
+    for key in indegree.keys():
+        if indegree[key] == 0:
+            queue.append(key)
+    while len(queue):
+        node = queue.pop(0)
+        res.append(node)
+        node_neighbors = nodes[node]
+        for nextNode in node_neighbors:
+            indegree[nextNode] -= 1
+            if indegree[nextNode] == 0:
+                queue.append(nextNode)
+    return res
+
+preferenceLists = [[3, 5, 7, 9], [2, 3, 8], [5, 8]]
+findOrder(preferenceLists)           
+{% endhighlight %}
+
+</div>
