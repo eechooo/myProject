@@ -16,10 +16,10 @@ tag: jekyll
 <li><a href="#sixth">Menu Order(Double Combination Sum)</a></li>
 <li><a href="#seventh">Leetcode 269. Alien Dictionary</a></li>
 <li><a href="#eighth">Parse CSV</a></li>
-<li><a href='nineth'>Perference List</a></li>
-
-
-
+<li><a href='#nineth'>Perference List</a></li>
+<li><a href='#tenth'>Leetcode 269. Alien Dictionary</a></li>
+<li><a href='#eleventh'>Leetcode 756. Pyramid Transition Matrix</a></li>
+<li><a href='#12th'>Leetcode 755. Pour Water</a></li>
 
 https://yezizp2012.github.io/2017/06/01/airbnb%E9%9D%A2%E8%AF%95%E9%A2%98%E6%B1%87%E6%80%BB/
 
@@ -222,8 +222,68 @@ Round 2: Given a flight itinerary consisting of starting city, destination city,
 
 <div>
 <h3>Parse CSV</h3>
+
+解决这道题首先要知道CSV Parser的规则, 
+
+<p>规则一: 一个field中如果包含双引号的话(double quote),需要将这个双引号保护起来, 也就是再加上quote保护它</p>
+<p>规则二: 如果一个field中包含comma的话, 这个comma需要被双引号给保护起来</p>
+<p>规则三: 只有当开头有双引号时，一个field中间才可以有双引号，且必须成对出现</p>
+
+不满足以上要求的输入即不符合CSV格式
+
+也就是说，类似
+"abc""def"
+这样的是合法的输入
+
+类似
+""abcdef""
+abc""def
+这样的是不合法的输入，并不满足CSV格式要求
+
+看下面这个例子, Alex 的左右2边都是有一对双引号的，最外面那一层双引号是为了escape最里面的那一层双引号的,一旦这里面有double quote的话, 最外面那一层也需要加上引号
+
+{% highlight python %}
+test = "\"Alexandra \"\"Alex\"\"\",Menendez,alex.menendez@gmail.com,Miami,1";
+expected = "Alexandra \"Alex\"|Menendez|alex.menendez@gmail.com|Miami|1";
+{% endhighlight %}
+
+{% highlight python %}
+def parseCSV(str):
+    inQuote = False
+    curr = ''
+    res = []
+    for i in range(len(str)):
+        c = str[i]
+        
+        if inQuote:
+            if c == "\"":
+                if i < len(str) and str[i+1] == '\"':
+                    curr += '\"'
+                    i += 1
+                else:
+                    inQuote = False
+            else:
+                curr += c
+        else:
+            if c == '\"':
+                inQuote = True
+                print i
+            elif c == ',':
+                res.append(curr)
+                curr = ''
+            else:
+                curr += c
+    if len(curr) > 0:
+        res.append(curr)
+    print res
+    return '|'.join(res)
+print parseCSV("\"Alexandra \"\"Alex\"\"\",Menendez,alex.menendez@gmail.com,Miami,1") 
+{% endhighlight %}       
+        
+
+
 </div>
-<div>
+
 <h3 id = 'nineth'>Perference List</h3>
 Description: Given a list of everyone's preferred city list, output the city list following the order of everyone's preference order.
 For example, input is [[3, 5, 7, 9], [2, 3, 8], [5, 8]]. One of possible output is [2, 3, 5, 8, 7, 9].
@@ -246,7 +306,9 @@ def findOrder(preferenceLists):
             # if from_node not in nodes
             #     nodes.get(from_node).add(to_node)
             if from_node not in indegree:
+            # from_node 也要加到indegree 字典里面, 因为indegree
                 indegree[from_node] = 0
+            #为什么
             indegree[to_node] += 1
             nodes[from_node].add(to_node)
     
@@ -270,4 +332,245 @@ preferenceLists = [[3, 5, 7, 9], [2, 3, 8], [5, 8]]
 findOrder(preferenceLists)           
 {% endhighlight %}
 
-</div>
+<h3 id = 'tenth'>Leetcode 269. Alien Dictionary</h3>
+
+这道题可以和 preference List 进行比较, 也是拓扑排序的题目, 但是这道题与上一题不同的是，这道题需要每次比较
+2个单词的同一位置，来判断他们的字符顺序
+需要弄明白的是：
+第一点: 为什么需要break
+第二点: 这道题的时间复杂度和空间复杂度是多少
+
+{% highlight python %}
+class Solution(object):
+    def alienOrder(self, words):
+        """
+        :type words: List[str]
+        :rtype: str
+        """
+        nodes = collections.defaultdict(set)
+        indegree = collections.defaultdict(int)
+        
+        for word in words:
+            for i in range(len(word)):
+                indegree[word[i]] = 0
+        
+        for i in range(len(words) - 1):
+            cur_word = words[i]
+            next_word = words[i+1]
+            
+            length = min(len(cur_word), len(next_word))
+            for j in range(length):
+                c1 = cur_word[j]
+                c2 = next_word[j]
+                
+                if c1 != c2 and c2 not in nodes[c1]:
+                    nodes[c1].add(c2)
+                    indegree[c2] += 1
+                    # 为什么 break, 还要仔细想一想
+                    break
+
+        # print 'nodes',nodes
+        # print 'indegree',indegree
+        queue = []
+        res = ''
+        for c in indegree.keys():
+            if indegree[c] == 0:
+                queue.append(c)
+        
+        while len(queue) > 0:
+            node_c = queue.pop(0)
+            res += node_c
+            for node_neighbor in nodes[node_c]:
+                indegree[node_neighbor] -= 1
+                if indegree[node_neighbor] == 0:
+                    queue.append(node_neighbor)
+        return res
+{% endhighlight %}
+<h3 id = "eleventh">Leetcode 756. Pyramid Transition Matrix</h3>
+解题思路: 其实就是在Allowed数组里面找到合法的砖块组合，往楼上堆砖块, input是金字塔最低层的那一排
+
+用递归的思路去解决，递归传入的参数是 当前层的字符串cur_level, 以及cur_level的的长度 cur_len
+那么问题来了，这个递归函数的base case是什么呢, 这个函数的base_case就是当前的cur_level的长度为一的时候, 这个时候已经达到了金字塔的顶端了
+
+Let us walk through a test case
+the test case is: **bottom = "ABC", ["ABD","BCE","DEF","FFF", "ABJ"]**
+
+先构建map, map是通过allowed来构建的，string前面2位是Key, 后面一位是value，所以构建完的map就是
+
+{% highlight python %}
+{'AB': set(['J', 'D']), 'DE': set(['F']), 'FF': set(['F']), 'BC': set(['E'])})
+{% endhighlight %}
+
+itertools.product函数解释，求2个集合的笛卡尔积，什么叫笛卡尔积呢, 看下面的例子
+
+{% highlight python %}
+例如，A={a,b}, B={0,1,2}，则
+A×B={(a, 0), (a, 1), (a, 2), (b, 0), (b, 1), (b, 2)}
+B×A={(0, a), (0, b), (1, a), (1, b), (2, a), (2, b)}
+{% endhighlight %}
+
+代码中的传入的参数是itertools.product(next_cand, self.mapping[cur_level[i:i+2]]),其实求的就是next_cand和 self.mapping的笛卡尔积， 如果以ABC为底，在计算第二层的时候，求出来的next_cand就是[' JE', ' DE'] 然后再循环遍历next_cand，去分别查看以 "JE" 和 "DE" 为cur_level的时候，能不能构建成金字塔
+
+下面是代码验证 下一层是 [' JE', ' DE']
+
+{% highlight python %}
+import collections
+import itertools
+bottom = 'ABC'
+allowed = ["ABD","BCE","DEF","FFF", "ABJ"]
+next_cand = ' '
+
+mapping = collections.defaultdict(set)
+for allow in allowed:
+    mapping[allow[:2]].add(allow[2:])
+print mapping
+
+cur_level, cur_len = bottom, len(bottom)
+
+for i in range(cur_len-1):
+    if cur_level[i:i+2] in mapping:
+        key = cur_level[i:i+2]
+        next_cand = map(''.join, itertools.product(next_cand, mapping[key]))
+print next_cand
+{% endhighlight %}
+
+{% highlight python %}
+class Solution:
+    def pyramidTransition(self, bottom, allowed):
+        """
+        :type bottom: str
+        :type allowed: List[str]
+        :rtype: bool
+        """
+        self.mapping = collections.defaultdict(set)
+        for brick in allowed:
+            self.mapping[brick[:2]].add(brick[2])
+            
+        cur_level, cur_len = bottom, len(bottom)
+        return self.search(cur_level, cur_len)
+                             
+    def search(self, cur_level, cur_len):
+        if cur_len == 1:
+            return True
+        
+        next_cand = ' '        
+        for i in range(cur_len-1):
+            if cur_level[i:i+2] in self.mapping:
+                next_cand = map(''.join, itertools.product(next_cand, self.mapping[cur_level[i:i+2]]))
+            else:
+                return False
+            
+        if next_cand: 
+            for cand in list(next_cand):
+                if self.search(cand[1:], cur_len-1):
+                    return True
+        return False
+{% endhighlight %}
+
+<h3>Leetcode 773. Sliding Puzzle</h3>
+
+我的问题是，如果这样做的话,是可以把所有的可能都遍历完嘛？ 时间复杂度是多少
+
+{% highlight python %}
+class Solution(object):
+    def slidingPuzzle(self, board):
+        """
+        :type board: List[List[int]]
+        :rtype: int
+        """
+        target = [[1,2,3], [4,5,0]]
+        [(x,y)] = [(x, y) for x in range(2) for y in range(3) if board[x][y] == 0]
+        queue = collections.deque([(board, 0, x, y)])
+        visited = set(tuple(map(tuple,board)))
+        
+        while queue:
+            board, steps, x, y = queue.popleft()
+            
+            if board == target:
+                return steps
+            for di in [(1, 0), (-1, 0), (0, -1), (0, 1)]:
+                t_x, t_y = x + di[0], y + di[1]
+                if 0 <= t_x < 2 and 0 <= t_y < 3:
+                    temp_board = [[i for i in row] for row in board]
+                    temp_board[x][y], temp_board[t_x][t_y] = temp_board[t_x][t_y], temp_board[x][y]
+                    tuple_b = tuple(map(tuple, temp_board))
+                    if tuple_b not in visited:
+                        visited.add(tuple_b)
+                        queue.append((temp_board, steps + 1, t_x, t_y))
+        return -1
+{% endhighlight %}
+
+<h3>Leetcode 755. Pour Water</h3>
+
+<p>Poor Water还要求最后打印出来, 水滴和地形, 基本上就是先向左找到非递增的最低点,如果该点和dumpPoint一样高，往右继续找非递增的最低点，如果一样高就放到dumpPoint，不一样的话放置在非递增的最低点</p>
+
+<p>注意体会一下最后把水滴和地形打出来的代码</p>
+
+{% highlight python %}
+class Solution(object):
+    def pourWater(self, heights, position, count):
+        """
+        :type heights: List[int]
+        :type V: int
+        :type K: int
+        :rtype: List[int]
+        """
+        if heights is None or len(heights) == 0:
+            return heights
+        water = [0 for _ in range(len(heights))]
+        
+        while count > 0:
+            left = position
+            right = position
+            putLocation = position
+
+            while left > 0:
+
+                if heights[left - 1] + water[left - 1] > heights[left] + water[left]:
+                    break
+                left -= 1
+            
+            if heights[left] + water[left] < heights[position] + water[position]:
+                putLocation = left
+            else:
+                while right < len(heights) - 1:
+                    if heights[right + 1] + water[right + 1] > heights[right] + water[right]:
+                        break
+                    right += 1
+                if heights[right] + water[right] < heights[right] + water[right]:
+                    putLocation = right
+            water[putLocation] += 1
+            count -= 1
+        highest = 0
+        for i in range(len(heights)):
+            if heights[i] + water[i] > highest:
+                highest = heights[i] + water[i]
+        
+        print 'highest',highest
+        for h in range(highest, 0, -1):
+            for i in range(len(heights)):
+                if heights[i] + water[i] < h:
+                    print "  " ,
+                elif heights[i] < h:
+                    print 'W ' ,
+                else:
+                    print '# ' ,
+            print '\n'
+        
+        res = [0] * len(heights)
+        for i in range(len(heights)):
+            res[i] = heights[i] + water[i]
+        
+        return res
+{% endhighlight %}
+
+
+        
+                    
+                    
+                
+                
+        
+
+
+
