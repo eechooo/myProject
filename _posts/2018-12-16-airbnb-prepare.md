@@ -103,6 +103,7 @@ class Solution(object):
             lookup[word] = index
         
         res = []
+        # 
         for i in range(len(words)):
             for j in range(len(words[i]) + 1):
                 first_part = words[i][j:]
@@ -138,8 +139,6 @@ class Vector2D(object):
         self.x += 1
         return res
     
-        
-
     def hasNext(self):
         """
         :rtype: bool
@@ -154,6 +153,71 @@ class Vector2D(object):
 # Your Vector2D object will be instantiated and called as such:
 # i, v = Vector2D(vec2d), []
 # while i.hasNext(): v.append(i.next())
+{% endhighlight %}
+
+<p>添加了 removeEle() 方法</p>
+{% highlight python %}
+class Vector2D(object):
+
+    def __init__(self, vec2d):
+        """
+        Initialize your data structure here.
+        :type vec2d: List[List[int]]
+        """
+        self.row = 0
+        self.col = 0
+        self.vec2d = vec2d
+
+    def next(self):
+        """
+        :rtype: int
+        """
+        value = self.vec2d[self.row][self.col]            
+        self.col += 1
+        # 判断self.col 等于当前的vec2d[self.row]的长度的时候, 需要reset坐标, col设为0, add one to row
+        if self.col == len(self.vec2d[self.row]):
+            self.col = 0
+            self.row += 1
+        return value
+    def hasNext(self):
+        """
+        :rtype: bool
+        """
+        while self.row < len(self.vec2d):
+            if self.col < len(self.vec2d[self.row]):
+                return True
+            else:
+                self.row += 1
+                
+        return False
+    
+    def removeEle(self):
+        #Case 1: if the elemnt to remove is the last element of the row
+        # self.row should be the same row, however self.col will be equal to zero
+        if self.col == 0:
+            self.row -= 1
+            to_remove_list = self.vec2d[self.row]
+            to_remove_col_index = len(self.vec2d[self.row]) - 1
+            to_remove_list.pop(to_remove_col_index)
+        # the element to remove is not the last element
+        else:
+            self.col -= 1
+            to_remove_list = self.vec2d[self.row]
+            to_remove_list.pop(self.col)
+            print 'to_remove_list', to_remove_list
+        to_remove_list = self.vec2d[self.row]
+        print 'secon to_remove_list', to_remove_list
+        
+        if len(to_remove_list) == 0:
+            self.vec2d.remove(to_remove_list)
+        print 'self.row', self.row
+        print 'self.col', self.col
+            
+vec = Vector2D([[1,2],[3], [4,5,6]])
+while vec.hasNext():
+    print vec.next()
+    vec.removeEle()
+    print vec.vec2d
 {% endhighlight %}
 
 <h3 id = 'fifth'>Leetcode 751. IP to CIDR</h3>
@@ -337,7 +401,8 @@ findOrder(preferenceLists)
 这道题可以和 preference List 进行比较, 也是拓扑排序的题目, 但是这道题与上一题不同的是，这道题需要每次比较
 2个单词的同一位置，来判断他们的字符顺序
 需要弄明白的是：
-第一点: 为什么需要break
+第一点: 为什么需要break: 需要break是因为，这道题比较的是字典序，一旦发现A单词有一个字符的 字典序 比 B单词的的字典序要大的话, 就不需要比较下面位置的了
+
 第二点: 这道题的时间复杂度和空间复杂度是多少
 
 {% highlight python %}
@@ -563,6 +628,82 @@ class Solution(object):
         
         return res
 {% endhighlight %}
+
+<h3>Wizards</h3>
+
+There are 10 wizards, 0-9, you are given a list that each entry is a list of wizards known by wizard. Define the cost between wizards and wizard as square of different of i and j. To find the min cost between 0 and 9.
+
+For example:
+{% highlight python %}
+wizard[0] list: 1, 4, 5 
+
+wizard[4] list: 9
+
+wizard 0 to 9 min distance is (0-4)^2+(4-9)^2=41 (wizard[0]->wizard[4]->wizard[9])
+
+{% endhighlight %}
+
+{% highlight python %}
+class wizard(object):
+    def __init__(self, id, dist):
+        self.id = id
+        self.dist = float('inf')
+
+
+
+import heapq
+import collections
+import math
+
+def getShortestPath(wizards, source, target):
+    size = len(wizards)
+    dic = collections.defaultdict(wizard)
+    
+    parents = [float('inf')] * len(wizards)
+    print 'at beigining', parents
+    
+    for i in range(size):
+        parents[i] = i;
+        dic[i] = wizard(i, float('inf'))
+    
+    print parents
+    
+    queue = []
+    
+    node = dic[source]
+    
+    heapq.heappush(queue, (node.id, 0))
+    
+    
+    while len(queue) > 0:
+        cur_id, cur_dist = heapq.heappop(queue)
+        # print 'cur_dist', cur_dist
+        neighbors = wizards[cur_id]
+        for nei in neighbors:
+            nei_id, nei_dist = dic[nei].id, dic[nei].dist
+            weight = math.pow(nei_id - cur_id, 2)
+            if nei_id == 9:
+            if cur_dist + weight < nei_dist:
+                print 'nei_id', nei_id
+                parents[nei_id] = cur_id
+                heapq.heappush(queue, (nei_id, cur_dist + weight))
+    res = []
+    print 'parents', parents
+    while target != source:
+        res.append(target)
+        target = parents[target]
+    
+    res.append(source)
+    print 'res', res
+    results = res.reverse()
+    return results
+    
+wizards = [[1, 5, 9], [2, 3, 9], [4], [], [], [9], [], [], [], []]
+
+print getShortestPath(wizards, 0, 9)
+{% endhighlight %}
+
+
 
 
         
