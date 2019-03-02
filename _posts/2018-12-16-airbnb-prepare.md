@@ -20,6 +20,10 @@ tag: jekyll
 <li><a href='#tenth'>Leetcode 269. Alien Dictionary</a></li>
 <li><a href='#eleventh'>Leetcode 756. Pyramid Transition Matrix</a></li>
 <li><a href='#12th'>Leetcode 755. Pour Water</a></li>
+<li><a href='#13th'>Find median from large file of integers</a></li>
+<li><a href='#14th'> Text Justification</a></li>
+<li><a href="#15th"> K edit distance</a></li>
+
 
 https://yezizp2012.github.io/2017/06/01/airbnb%E9%9D%A2%E8%AF%95%E9%A2%98%E6%B1%87%E6%80%BB/
 
@@ -590,7 +594,6 @@ class Solution(object):
             putLocation = position
 
             while left > 0:
-
                 if heights[left - 1] + water[left - 1] > heights[left] + water[left]:
                     break
                 left -= 1
@@ -702,6 +705,105 @@ wizards = [[1, 5, 9], [2, 3, 9], [4], [], [], [9], [], [], [], []]
 
 print getShortestPath(wizards, 0, 9)
 {% endhighlight %}
+
+
+<h3>Find median from large file of integers</h3>
+
+Find the median from a large file of integers. You can not access the numbers by index, can only access it sequentially. And the numbers cannot fit in memory.
+
+这道题是个好题目, 下面是解题思路
+思路: 首先， 我们知道对任何大的file median of any int will between INT_MIN and INT_MAX
+所以我们就知道了lowerbound 和 upperbound, 我们猜一下median might be "guess = lower+(upper-lower)/2" 验证media是不是这个数的话, 需要我们找到合适的方法去验证, 验证的方法就是
+扫一遍这个文件，拿一个count 去记录一下小于等于当前的guess number的个数代码如下, 这样的算法
+顶多需要扫描 32次文件
+
+1. 为什么顶多需要扫描32次 文件呢, 因为Integer在内层里面的比特位就是32位，每次取一半 就相当于右边移一位
+2. Java里面Integer是 2^32 - 1, 为什么呢 因为32位比特位里面, 第一位是记录符号的，记录当前的数是正数还是负数, 后面31位是表示数字， 2^32 - 1 = 2^31 + 2^30 ..... + 2^1 + 2^0
+
+{% highlight python %}
+res = 0
+while num = readline():
+    if num <= guess:
+        count += 1
+        # 这里就是求 扫描的这些数当中 在guess左边最大的数
+        res = max(res, num)
+{% endhighlight %}
+
+{% highlight Java %}
+package find_median_in_large_file_of_integers;
+
+import org.junit.*;
+
+import static org.junit.Assert.*;
+
+public class FindMedianinLargeIntegerFileofIntegers {
+    /*
+        Find Median in Large Integer File of Integers
+        AirBnB Interview Question
+     */
+    public class Solution {
+        private long search(int[] nums, int k, long left, long right) {
+            if (left >= right) {
+                return left;
+            }
+
+            long res = left;
+            long guess = left + (right - left) / 2;
+            int count = 0;
+            for (int num : nums) {
+                if (num <= guess) {
+                    count++;
+                    res = Math.max(res, num);
+                }
+            }
+
+            if (count == k) {
+                return res;
+            } else if (count < k) {
+                return search(nums, k, Math.max(res + 1, guess), right);
+            } else {
+                return search(nums, k, left, res);
+            }
+        }
+
+        public double findMedian(int[] nums) {
+            int len = 0;
+            for (int num : nums) {
+                len++;
+            }
+
+            if (len % 2 == 1) {
+                return (double) search(nums, len / 2 + 1, Integer.MIN_VALUE, Integer.MAX_VALUE);
+            } else {
+                return (double) (search(nums, len / 2, Integer.MIN_VALUE, Integer.MAX_VALUE) +
+                        search(nums, len / 2 + 1, Integer.MIN_VALUE, Integer.MAX_VALUE)) / 2;
+            }
+        }
+    }
+
+    public static class UnitTest {
+        @Test
+        public void test1() {
+            Solution sol = new FindMedianinLargeIntegerFileofIntegers().new Solution();
+            assertEquals(3.0, sol.findMedian(new int[]{3, -2, 7}), 1E-03);
+            assertEquals(5.0, sol.findMedian(new int[]{-100, 99, 3, 0, 5, 7, 11, 66, -33}), 1E-03);
+            assertEquals(4.5, sol.findMedian(new int[]{4, -100, 99, 3, 0, 5, 7, 11, 66, -33}), 1E-03);
+        }
+    }
+}
+{% endhighlight %}
+
+<h3>Text Justification</h3>
+Text Justification 解题思路, 对于一个给定的maxWidth, 需要将单词排列在上面, 还要保证单词之间的间隙是均匀分布的
+首先要知道的知识是 对于一个list的单词来说，假设有n个单词, 那么n个单词之间的空隙数是 n - 1
+对于list中的index来说, 
+1. 
+{% highlight python %}
+
+{% endhighlight %}
+
+
+
 
 
 
