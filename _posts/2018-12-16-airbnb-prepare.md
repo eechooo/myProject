@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "airbnb面试"
+title:  "Airbnb面试"
 date:   2018-12-17 13:31:01 +0800
 categories: jekyll
 tag: jekyll
@@ -43,7 +43,7 @@ class Solution(object):
                 l += 1
             while l < r and not s[r].isalnum():
                 r -= 1
-            
+
             if s[l].lower() != s[r].lower():
                 return False
             l += 1
@@ -55,7 +55,7 @@ class Solution(object):
 第一种方法就是brute force的做法，判断average string的长度是L的话，时间复杂度就是 O(n\*n\*l)
 {% highlight python %}
 class Pair(object):
-    
+
     def __init__(self, start, end, s):
         self.start = start
         self.end = end
@@ -75,19 +75,19 @@ class Solution(object):
                     if self.isValidPalindrom(pairsStr):
                         pairs = Pair(i, j, pairsStr)
                         res.append(pairs)
-        
+
         results = []
         for i in range(len(res)):
             results.append([res[i].start, res[i].end])
         return results
-            
+
     def isValidPalindrom(self, s):
-        
+
         l = 0
         r = len(s) - 1
-        
+
         while l < r:
-            
+
             if s[l].lower() != s[r].lower():
                 return False
             l += 1
@@ -105,17 +105,17 @@ class Solution(object):
         lookup = {}
         for index, word in enumerate(words):
             lookup[word] = index
-        
+
         res = []
-        # 
+        #
         for i in range(len(words)):
             for j in range(len(words[i]) + 1):
                 first_part = words[i][j:]
                 second_part = words[i][:j]
-                
+
                 if first_part == first_part[::-1] and second_part[::-1] in lookup and lookup[second_part[::-1]] != i:
                     res.append([i, lookup[second_part[::-1]]])
-                if j > 0 and second_part == second_part[::-1] and first_part[::-1] in lookup and lookup[first_part[::-1]] != i: 
+                if j > 0 and second_part == second_part[::-1] and first_part[::-1] in lookup and lookup[first_part[::-1]] != i:
                     #注意append的顺序， index是 first-part在前
                     res.append([lookup[first_part[::-1]], i])
         return res
@@ -134,7 +134,7 @@ class Vector2D(object):
         self.vec2d = vec2d
         self.x = 0
         self.y = 0
-        
+
     def next(self):
         """
         :rtype: int
@@ -142,7 +142,7 @@ class Vector2D(object):
         res = self.vec2d[self.y][self.x]
         self.x += 1
         return res
-    
+
     def hasNext(self):
         """
         :rtype: bool
@@ -176,7 +176,7 @@ class Vector2D(object):
         """
         :rtype: int
         """
-        value = self.vec2d[self.row][self.col]            
+        value = self.vec2d[self.row][self.col]
         self.col += 1
         # 判断self.col 等于当前的vec2d[self.row]的长度的时候, 需要reset坐标, col设为0, add one to row
         if self.col == len(self.vec2d[self.row]):
@@ -192,9 +192,9 @@ class Vector2D(object):
                 return True
             else:
                 self.row += 1
-                
+
         return False
-    
+
     def removeEle(self):
         #Case 1: if the elemnt to remove is the last element of the row
         # self.row should be the same row, however self.col will be equal to zero
@@ -211,12 +211,12 @@ class Vector2D(object):
             print 'to_remove_list', to_remove_list
         to_remove_list = self.vec2d[self.row]
         print 'secon to_remove_list', to_remove_list
-        
+
         if len(to_remove_list) == 0:
             self.vec2d.remove(to_remove_list)
         print 'self.row', self.row
         print 'self.col', self.col
-            
+
 vec = Vector2D([[1,2],[3], [4,5,6]])
 while vec.hasNext():
     print vec.next()
@@ -231,7 +231,7 @@ CIDR: A CIDR is the string consisting of an IP, follwed by a slash, and then pre
 首先定义一个function，将ip地址转换成一个数字，其中用到了python中的map function, numbers 是包含4个元素的数组，第一个表示最高的八位，所以在计算成数字的时候，需要将 numbers 左移24位
 >map(fun, iter)
 >>NOTE : The returned value from map() (map object) then can be passed to functions like list() (to create a list), set() (to create a set) .
-fun : It is a function to which map passes each element of given iterable. 
+fun : It is a function to which map passes each element of given iterable.
 iter : It is a iterable which is to be mapped.
 
 
@@ -256,23 +256,23 @@ Round 1: Given a menu (list of items prices), find all  possible combinations of
 def search(res, tempList, centsPrices, centsTarget, index):
     if centsTarget < 0:
         return
-    
+
     if centsTarget == 0:
         res.append(list(tempList))
-    
+
     for i in range(index, len(centsPrices)):
         tempList.append(centsPrices[i])
         search(res, tempList, centsPrices, centsTarget-centsPrices[i], i + 1)
         tempList.pop()
-    
+
 
 def getCombos(prices, target):
     res = []
     tempList = []
-    
+
     if prices is None or len(prices) == 0 or target < 0:
         return res
-    
+
     centsTarget = int(round(target * 100))
     print centsTarget
     sorted(prices)
@@ -280,8 +280,8 @@ def getCombos(prices, target):
     print centsPrices
     search(res, tempList, centsPrices, centsTarget, 0)
     return res
-    
-print getCombos([10.02, 1.11, 2.22, 3.01, 4.02, 2.00, 5.03], 7.03) 
+
+print getCombos([10.02, 1.11, 2.22, 3.01, 4.02, 2.00, 5.03], 7.03)
 {% endhighlight %}
 
 <h3 id = 'seventh'>Leetcode 269. Alien Dictionary</h3>
@@ -291,7 +291,7 @@ Round 2: Given a flight itinerary consisting of starting city, destination city,
 <div>
 <h3>Parse CSV</h3>
 
-解决这道题首先要知道CSV Parser的规则, 
+解决这道题首先要知道CSV Parser的规则,
 
 <p>规则一: 一个field中如果包含双引号的话(double quote),需要将这个双引号保护起来, 也就是再加上quote保护它</p>
 <p>规则二: 如果一个field中包含comma的话, 这个comma需要被双引号给保护起来</p>
@@ -322,7 +322,7 @@ def parseCSV(str):
     res = []
     for i in range(len(str)):
         c = str[i]
-        
+
         if inQuote:
             if c == "\"":
                 if i < len(str) and str[i+1] == '\"':
@@ -345,9 +345,9 @@ def parseCSV(str):
         res.append(curr)
     print res
     return '|'.join(res)
-print parseCSV("\"Alexandra \"\"Alex\"\"\",Menendez,alex.menendez@gmail.com,Miami,1") 
-{% endhighlight %}       
-        
+print parseCSV("\"Alexandra \"\"Alex\"\"\",Menendez,alex.menendez@gmail.com,Miami,1")
+{% endhighlight %}
+
 
 
 </div>
@@ -379,7 +379,7 @@ def findOrder(preferenceLists):
             #为什么
             indegree[to_node] += 1
             nodes[from_node].add(to_node)
-    
+
     print indegree
     queue = []
     res = []
@@ -397,7 +397,7 @@ def findOrder(preferenceLists):
     return res
 
 preferenceLists = [[3, 5, 7, 9], [2, 3, 8], [5, 8]]
-findOrder(preferenceLists)           
+findOrder(preferenceLists)
 {% endhighlight %}
 
 <h3 id = 'tenth'>Leetcode 269. Alien Dictionary</h3>
@@ -418,20 +418,20 @@ class Solution(object):
         """
         nodes = collections.defaultdict(set)
         indegree = collections.defaultdict(int)
-        
+
         for word in words:
             for i in range(len(word)):
                 indegree[word[i]] = 0
-        
+
         for i in range(len(words) - 1):
             cur_word = words[i]
             next_word = words[i+1]
-            
+
             length = min(len(cur_word), len(next_word))
             for j in range(length):
                 c1 = cur_word[j]
                 c2 = next_word[j]
-                
+
                 if c1 != c2 and c2 not in nodes[c1]:
                     nodes[c1].add(c2)
                     indegree[c2] += 1
@@ -445,7 +445,7 @@ class Solution(object):
         for c in indegree.keys():
             if indegree[c] == 0:
                 queue.append(c)
-        
+
         while len(queue) > 0:
             node_c = queue.pop(0)
             res += node_c
@@ -514,22 +514,22 @@ class Solution:
         self.mapping = collections.defaultdict(set)
         for brick in allowed:
             self.mapping[brick[:2]].add(brick[2])
-            
+
         cur_level, cur_len = bottom, len(bottom)
         return self.search(cur_level, cur_len)
-                             
+
     def search(self, cur_level, cur_len):
         if cur_len == 1:
             return True
-        
-        next_cand = ' '        
+
+        next_cand = ' '
         for i in range(cur_len-1):
             if cur_level[i:i+2] in self.mapping:
                 next_cand = map(''.join, itertools.product(next_cand, self.mapping[cur_level[i:i+2]]))
             else:
                 return False
-            
-        if next_cand: 
+
+        if next_cand:
             for cand in list(next_cand):
                 if self.search(cand[1:], cur_len-1):
                     return True
@@ -551,10 +551,10 @@ class Solution(object):
         [(x,y)] = [(x, y) for x in range(2) for y in range(3) if board[x][y] == 0]
         queue = collections.deque([(board, 0, x, y)])
         visited = set(tuple(map(tuple,board)))
-        
+
         while queue:
             board, steps, x, y = queue.popleft()
-            
+
             if board == target:
                 return steps
             for di in [(1, 0), (-1, 0), (0, -1), (0, 1)]:
@@ -587,7 +587,7 @@ class Solution(object):
         if heights is None or len(heights) == 0:
             return heights
         water = [0 for _ in range(len(heights))]
-        
+
         while count > 0:
             left = position
             right = position
@@ -597,7 +597,7 @@ class Solution(object):
                 if heights[left - 1] + water[left - 1] > heights[left] + water[left]:
                     break
                 left -= 1
-            
+
             if heights[left] + water[left] < heights[position] + water[position]:
                 putLocation = left
             else:
@@ -613,7 +613,7 @@ class Solution(object):
         for i in range(len(heights)):
             if heights[i] + water[i] > highest:
                 highest = heights[i] + water[i]
-        
+
         print 'highest',highest
         for h in range(highest, 0, -1):
             for i in range(len(heights)):
@@ -624,11 +624,11 @@ class Solution(object):
                 else:
                     print '# ' ,
             print '\n'
-        
+
         res = [0] * len(heights)
         for i in range(len(heights)):
             res[i] = heights[i] + water[i]
-        
+
         return res
 {% endhighlight %}
 
@@ -661,23 +661,23 @@ import math
 def getShortestPath(wizards, source, target):
     size = len(wizards)
     dic = collections.defaultdict(wizard)
-    
+
     parents = [float('inf')] * len(wizards)
     print 'at beigining', parents
-    
+
     for i in range(size):
         parents[i] = i;
         dic[i] = wizard(i, float('inf'))
-    
+
     print parents
-    
+
     queue = []
-    
+
     node = dic[source]
-    
+
     heapq.heappush(queue, (node.id, 0))
-    
-    
+
+
     while len(queue) > 0:
         cur_id, cur_dist = heapq.heappop(queue)
         # print 'cur_dist', cur_dist
@@ -695,12 +695,12 @@ def getShortestPath(wizards, source, target):
     while target != source:
         res.append(target)
         target = parents[target]
-    
+
     res.append(source)
     print 'res', res
     results = res.reverse()
     return results
-    
+
 wizards = [[1, 5, 9], [2, 3, 9], [4], [], [], [9], [], [], [], []]
 
 print getShortestPath(wizards, 0, 9)
@@ -796,8 +796,8 @@ public class FindMedianinLargeIntegerFileofIntegers {
 <h3>Text Justification</h3>
 Text Justification 解题思路, 对于一个给定的maxWidth, 需要将单词排列在上面, 还要保证单词之间的间隙是均匀分布的
 首先要知道的知识是 对于一个list的单词来说，假设有n个单词, 那么n个单词之间的空隙数是 n - 1
-对于list中的index来说, 
-1. 
+对于list中的index来说,
+1.
 {% highlight python %}
 
 {% endhighlight %}
@@ -808,12 +808,12 @@ Text Justification 解题思路, 对于一个给定的maxWidth, 需要将单词�
 
 
 
-        
-                    
-                    
-                
-                
-        
+
+
+
+
+
+
 
 
 
