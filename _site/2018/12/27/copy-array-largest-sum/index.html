@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Copy Array Largest Sum - Less Or More</title>
+
+	<link rel="shortcut icon" href="/myProject/styles/images/favicon.jpg">
+	<link rel="icon" href="/myProject/styles/images/favicon.jpg">
+
+	<link rel="stylesheet" href="/myProject/styles/css/index.css">
+	<link rel="stylesheet" href="/myProject/styles/css/fontawesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/myProject/styles/css/syntax.css">
+	<link rel="canonical" href="/myProject/2018/12/27/copy-array-largest-sum/">
+	<link rel="alternate" type="application/rss+xml" title="Less Or More" href="/myProject/feed.xml">
+	
+	<meta name="keywords" content="Copy Array Largest Sum, Less Or More, 康志华;个人博客;非淡泊无以明志, 非宁静无以致远 ;思而不学则殆;生命不止;折腾不休">
+	<meta name="description" content="康志华;个人博客;非淡泊无以明志, 非宁静无以致远 ;思而不学则殆;生命不止;折腾不休">
+
+	<script src="/myProject/styles/js/jquery.min.js"></script>
+	<!--[if lt IE 9]>
+    	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  	<![endif]-->
+  	<script>
+		var _hmt = _hmt || [];
+		(function() {
+		  var hm = document.createElement("script");
+		  hm.src = "//hm.baidu.com/hm.js?94be4b0f9fc5d94cc0d0415ea6761ae9";
+		  var s = document.getElementsByTagName("script")[0]; 
+		  s.parentNode.insertBefore(hm, s);
+		})();
+	</script>
+  	<style type="text/css">
+	  	.docs-content{
+	  		margin-bottom: 10px;
+	  	}
+  	</style>
+</head>
+
+  <body class="index">
+
+    <header class="navbar navbar-inverse navbar-fixed-top docs-nav" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <!-- <a href="/" class="navbar-brand">
+        <img src="/myProject/styles/images/logo.jpg">
+      </a> -->
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">    
+        <li>
+          <a href="/myProject/">SATOSHI在硅谷</a>
+        </li>
+        <li>
+          <a href="/myProject/categories/">大类分解</a>
+        </li>
+        <li>
+          <a href="/myProject/tag">小类内聚</a>
+        </li>
+        <li>
+          <a href="/myProject/categories/">地产</a>
+        </li>
+        <li>
+          <a href="/myProject/tag">股票</a>
+        </li>
+        <li>
+          <a href="/myProject/tag">比特币以及加密货币</a>
+        </li>
+        <li>
+          <a href="/myProject/tag">旅游美食</a>
+        </li>
+        <li>
+          <a href="/myProject/tag">LEETCODE 刷题</a>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <!-- <li>
+            <a><span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span></a>
+        </li> -->
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">关于<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a rel="nofollow" target="_blank" href="https://github.com/luoyan35714/">Github</a></li>
+            <li><a rel="nofollow" target="_blank" href="http://www.hifreud.com/Resume.io/">关于作者</a></li>
+            <li><a rel="nofollow" href="/myProject/books">我的书单</a></li>
+            <!-- <li><a rel="nofollow" href="http://www.hifreud.com/domains/">域名管理</a></li> -->
+            <!-- <li><a rel="nofollow" href="/myProject/reference">推荐博客</a></li> -->
+            <li><a href="/myProject/feed.xml">RSS订阅</a></li>
+            <!-- <li class="divider"></li>
+            <li><a rel="nofollow" target="_blank" href="https://github.com/luoyan35714/LessOrMore.git">本项目</a></li> -->
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+    <div class="container docs-container">
+  <div class="row">
+    <div class="col-md-2">
+      <div class="sidebar hidden-print" role="complementary">
+        <div id="navigation">
+  <h1>目录</h1>
+  <ul class="nav sidenav">
+  </ul>
+  <!-- <div style="height: 200px;width: 200px;">
+    <script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i=&amp;m=0&amp;c=ff0000&amp;cr1=ffffff&amp;f=arial&amp;l=33" async="async"> 
+    </script>
+  </div> -->
+</div>
+
+
+      </div>
+    </div>
+    <div class="col-md-10" role="main">
+      <div class="panel docs-content">
+        <div class="wrapper">
+            <header class="post-header">
+              <h1 class="post-title">Copy Array Largest Sum</h1>
+              <!--
+                <p class="post-meta">Dec 27, 2018</p>
+              -->
+              <div class="meta">Posted on <span class="postdate">Dec 27, 2018</span> By <a target="_blank" href="http://localhost:4000">Luan Zhang</a></div>
+              <br />
+            </header>
+            <article class="post-content">
+              <ul>
+  <li>content
+寻找一个target, 这个数肯定是在low 和 high 之间</li>
+</ul>
+
+<p>low就是数组中最大的那个数 max(nums)
+high 就是把数组中所有的数字和加在一起 sum(nums)
+这道题用二分查找来做，第一步找mid of (low + high), 这个mid要满足条件, 就是按照mid来分看看能不能分成 m 份, 如果分出来的份数大于m的话, 相当于这个值太小，改变二分的范围，the low point start from mid + 1</p>
+
+<p>最后返回high的那个值，为什么high的值就是 array的2个数呢 举个例子
+如果我们的test case是nums = [7,2,5,10,8], m = 2
+low = 10
+high = 32
+所以第一个mid是 22，发现22是能讲上述数组分成2个部分的 [7, 2, 5, 10], [8]
+22是符合条件的, 所以change high to 22 继续找mid = 11，这道题的答案是 18</p>
+
+<p>let us try 17， 17 不能满足条件
+let us try 19, 19 can not satisfy condition</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">class</span> <span class="nc">Solution</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">splitArray</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">nums</span><span class="p">,</span> <span class="n">m</span><span class="p">):</span>
+        <span class="s">"""
+        :type nums: List[int]
+        :type m: int
+        :rtype: int
+        """</span>
+        <span class="n">low</span> <span class="o">=</span> <span class="nb">max</span><span class="p">(</span><span class="n">nums</span><span class="p">)</span>
+        <span class="n">high</span> <span class="o">=</span> <span class="nb">sum</span><span class="p">(</span><span class="n">nums</span><span class="p">)</span>
+        <span class="k">print</span> <span class="s">'low'</span><span class="p">,</span> <span class="n">low</span>
+        <span class="k">print</span> <span class="s">'high'</span><span class="p">,</span> <span class="n">high</span>  
+        
+        <span class="k">while</span> <span class="n">low</span> <span class="o">&lt;</span> <span class="n">high</span><span class="p">:</span>
+            <span class="n">mid</span> <span class="o">=</span> <span class="p">(</span><span class="n">high</span> <span class="o">+</span> <span class="n">low</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span>
+            <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">valid</span><span class="p">(</span><span class="n">mid</span><span class="p">,</span> <span class="n">m</span><span class="p">,</span> <span class="n">nums</span><span class="p">):</span>
+                <span class="n">high</span> <span class="o">=</span> <span class="n">mid</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">low</span> <span class="o">=</span> <span class="n">mid</span> <span class="o">+</span> <span class="mi">1</span>
+        <span class="k">return</span> <span class="n">high</span>
+                
+    <span class="k">def</span> <span class="nf">valid</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">mid</span><span class="p">,</span> <span class="n">m</span><span class="p">,</span> <span class="n">nums</span><span class="p">):</span>
+        <span class="n">cur</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="n">count</span> <span class="o">=</span> <span class="mi">1</span>
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">nums</span><span class="p">)):</span>
+            <span class="n">cur</span> <span class="o">+=</span> <span class="n">nums</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+            <span class="k">if</span> <span class="n">cur</span> <span class="o">&gt;</span> <span class="n">mid</span><span class="p">:</span>
+                <span class="n">cur</span> <span class="o">=</span> <span class="n">nums</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+                <span class="n">count</span> <span class="o">+=</span> <span class="mi">1</span>
+                <span class="k">if</span> <span class="n">count</span> <span class="o">&gt;</span> <span class="n">m</span><span class="p">:</span>
+                    <span class="k">return</span> <span class="bp">False</span>
+        <span class="k">return</span> <span class="bp">True</span></code></pre></figure>
+
+<p>这道题还有一种做法就是用DP来做, 如果用dp来做的话, 就要定义
+dp[i][j] 的意思就是 讲J个元素分成i个group, dp[i][j]</p>
+
+<p>就是里面sum最小的那个最大的sum</p>
+
+<p>for example 如何体会这句话, 举个例子更容易明白一点 比如一个nums = [7,2,5,10,8], m = 2</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">class</span> <span class="nc">Solution</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">splitArray</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">nums</span><span class="p">,</span> <span class="n">m</span><span class="p">):</span>
+        <span class="s">"""
+        :type nums: List[int]
+        :type m: int
+        :rtype: int
+        """</span>
+        
+        <span class="n">prefixsum</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">*</span> <span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">nums</span><span class="p">))</span>
+        <span class="n">prefixsum</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="n">nums</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+        <span class="n">dp</span> <span class="o">=</span> <span class="p">[[</span><span class="nb">float</span><span class="p">(</span><span class="s">'inf'</span><span class="p">)</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">nums</span><span class="p">))]</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">m</span><span class="o">+</span><span class="mi">1</span><span class="p">)]</span>
+        <span class="c1"># print dp
+</span>        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">nums</span><span class="p">)):</span>
+            <span class="n">prefixsum</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">prefixsum</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">+</span> <span class="n">nums</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+        
+        <span class="c1"># print 'prefixsum', prefixsum
+</span>        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">nums</span><span class="p">)):</span>
+            
+            <span class="n">dp</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">prefixsum</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+            
+        
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="n">m</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
+            <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">nums</span><span class="p">)):</span>
+                <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">j</span><span class="p">):</span>
+                    <span class="n">dp</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">=</span> <span class="nb">min</span><span class="p">(</span><span class="n">dp</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">],</span> <span class="nb">max</span><span class="p">(</span><span class="n">dp</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">][</span><span class="n">k</span><span class="p">],</span> <span class="n">prefixsum</span><span class="p">[</span><span class="n">j</span><span class="p">]</span> <span class="o">-</span> <span class="n">prefixsum</span><span class="p">[</span><span class="n">k</span><span class="p">]))</span>                  
+        <span class="k">return</span> <span class="n">dp</span><span class="p">[</span><span class="n">m</span><span class="p">][</span><span class="nb">len</span><span class="p">(</span><span class="n">nums</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span></code></pre></figure>
+
+
+            </article>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <footer class="footer" role="contentinfo">
+	<div class="container">
+		<p class="copyright">Copyright &copy; 2014-2020 <a href="http://www.hifreud.com/Resume.io/"><code>Luan Zhang</code></a>.</p>
+		<p>Powered by <a href="http://jekyllrb.com">Jekyll</a>, themed from <a href="http://lesscss.cn/">Less</a>, refactored by <a href="http://www.hifreud.com/">Freud Kang</a></p>
+	</div>
+</footer>
+
+<script src="/myProject/styles/js/jquery.min.js"></script>
+<script src="/myProject/styles/js/bootstrap.min.js"></script>
+<script src="/myProject/styles/js/holder.min.js"></script>
+<script src="/myProject/styles/js/lessismore.js"></script>
+<script src="/myProject/styles/js/application.js"></script>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  </body>
+</html>

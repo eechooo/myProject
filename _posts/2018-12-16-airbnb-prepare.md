@@ -19,6 +19,7 @@ tag: jekyll
 <li><a href='#nineth'>Perference List</a></li>
 <li><a href='#tenth'>Leetcode 269. Alien Dictionary</a></li>
 <li><a href='#eleventh'>Leetcode 756. Pyramid Transition Matrix</a></li>
+<li>LeetCode 773 Sliding Puzzle</li>
 <li><a href='#12th'>Leetcode 755. Pour Water</a></li>
 <li><a href='#13th'>Find median from large file of integers</a></li>
 <li><a href='#14th'> Text Justification</a></li>

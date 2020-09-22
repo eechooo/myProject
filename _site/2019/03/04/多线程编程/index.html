@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>永久放弃评论功能 - Less Or More</title>
+	<title>多线程编程 - Less Or More</title>
 
 	<link rel="shortcut icon" href="/myProject/styles/images/favicon.jpg">
 	<link rel="icon" href="/myProject/styles/images/favicon.jpg">
@@ -13,10 +13,10 @@
 	<link rel="stylesheet" href="/myProject/styles/css/index.css">
 	<link rel="stylesheet" href="/myProject/styles/css/fontawesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="/myProject/styles/css/syntax.css">
-	<link rel="canonical" href="/myProject/2017/07/23/abandon-the-comment-feature/">
+	<link rel="canonical" href="/myProject/2019/03/04/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E7%BC%96%E7%A8%8B/">
 	<link rel="alternate" type="application/rss+xml" title="Less Or More" href="/myProject/feed.xml">
 	
-	<meta name="keywords" content="永久放弃评论功能, Less Or More, 康志华;个人博客;非淡泊无以明志, 非宁静无以致远 ;思而不学则殆;生命不止;折腾不休">
+	<meta name="keywords" content="多线程编程, Less Or More, 康志华;个人博客;非淡泊无以明志, 非宁静无以致远 ;思而不学则殆;生命不止;折腾不休">
 	<meta name="description" content="康志华;个人博客;非淡泊无以明志, 非宁静无以致远 ;思而不学则殆;生命不止;折腾不休">
 
 	<script src="/myProject/styles/js/jquery.min.js"></script>
@@ -123,40 +123,77 @@
       <div class="panel docs-content">
         <div class="wrapper">
             <header class="post-header">
-              <h1 class="post-title">永久放弃评论功能</h1>
+              <h1 class="post-title">多线程编程</h1>
               <!--
-                <p class="post-meta">Jul 23, 2017</p>
+                <p class="post-meta">Mar 4, 2019</p>
               -->
-              <div class="meta">Posted on <span class="postdate">Jul 23, 2017</span> By <a target="_blank" href="http://localhost:4000">Luan Zhang</a></div>
+              <div class="meta">Posted on <span class="postdate">Mar 04, 2019</span> By <a target="_blank" href="http://localhost:4000">Luan Zhang</a></div>
               <br />
             </header>
             <article class="post-content">
-              <ul id="markdown-toc">
-  <li><a href="#yungentie" id="markdown-toc-yungentie">云跟帖</a></li>
-  <li><a href="#back-to-begin" id="markdown-toc-back-to-begin">选择 - 回归</a></li>
-</ul>
+              <h1>What is Thread And What is Process</h1>
+<p>Thread: A Path of execution within a process. A process can contain multiple threads.</p>
 
-<h1 id="yungentie">云跟帖</h1>
+<h2>What is Thread</h2>
 
-<p>看了下历史记录，在6月8号切换的云跟帖，未到一个月，7月6号，云跟帖也宣告结束了。</p>
+<p>A thread is a path of execution within a process. A process can contain multiple threads.</p>
 
-<p><img src="/myProject/styles/images/abandon-comments/yungentie-abandon.png" alt="/styles/images/abandon-comments/yungentie-abandon.png" /></p>
+<h2>Why Multithreading?</h2>
+<p>A thread is also known as lightweight process. The idea is to achieve parallelism by dividing a process into multiple threads. For example, in a browser, multiple tabs can be different threads. MS Word uses multiple threads: one thread to format the text, another thread to process inputs, etc. More advantages of multithreading are discussed below</p>
 
-<p>撇开第三方评论系统的盈利与否不谈，我好像发现了什么不得了的事情，就是我用什么，就死什么。</p>
+<h2>Process vs Thread?</h2>
+<p>The primary difference is that threads within the same process run in a shared memory space, while processes run in separate memory spaces.
+Threads are not independent of one another like processes are, and as a result threads share with other threads their code section, data section, and OS resources (like open files and signals). But, like process, a thread has its own program counter (PC), register set, and stack space.</p>
 
-<p>我用Disqus，被墙了；用多说，关停了；用云跟帖，挂了。</p>
+<p>lOCK AND CONDITION</p>
 
-<h1 id="back-to-begin">选择 - 回归</h1>
+<p>CONDITION
+CONDITION</p>
 
-<p>当看到云跟帖要关停的消息的时候，首先想的是还有什么替代方案。</p>
+<p>threadLocal: 线程局部变量，只有线程里面才能用, 要不然要重新定义</p>
 
-<p>考虑了好久，觉得对现在的第三方评论系统都没什么信任感，基于我用什么死什么，我也不想再祸害一个新的好项目了。并且细细想来，我写这个博客的初衷是记录一些我在工作或者学习中遇到或者学到的知识，随着年岁的增长，记忆力直线下降，所以只是拿博客当作一个在线的技术日记记录工具，供我能够随时方便地找到那些我已经遗忘细节的知识点，并没有想过什么著书立传之类的事情。</p>
+<p>第三次课:</p>
 
-<p>能帮到别人固然是好的，不过归根结底是给自己一个方便查阅的平台。</p>
+<p>Java的线程池是建立在高并发的容器之上的</p>
 
-<p>所以最后的决定是彻底放弃评论功能。如果有人在看我的博客的时候有什么问题，依然可以到github开issue来提问。由于去github开issue相对还是有点技术含量(全球最大的同性交友平台还是技术人员的主场)，这样还屏蔽掉了大部分的灌水或者垃圾评论。</p>
+<p>高并发的时候可以使用2中队列，一种是ConcureentQueue， 另外一种是BlockingQueue</p>
 
-<p>所以，别了，评论功能！</p>
+<p>BlockingQueue 有界队列
+ArrayBlockingQueue 无界队列</p>
+
+<p>DelayQueue可以用来定时执行任务</p>
+
+<p>高并发容器:</p>
+
+<h1> Spring框架为什么会出现 </h1>
+
+<p>为什么有:</p>
+
+<p>Struts 是web框架 JSP/action/actionForm
+Hibernate 是ORM框架 处于持久层
+Spring是 容器框架, 配置bean 并维护bean之间关系的框架
+Spring中的一个重要的概念: bean 是java中的任何一种对象, ioc(inversion of control), DI(dependece Injection)</p>
+
+<p>画一个层次图来解释就是spring横跨整个MVC框架, Web, View，Controller 层
+Spring is a container framework that maintain Java Beans in Web layer, View layer and Controller layer, Spring can configure beans and matain the beans relationship between</p>
+
+<p>Spring里面的核心文件是 applicationContext.xml文件, bean(service/dao/domain/数据源)</p>
+
+<p><strong>bean元素的 spring 框架加载的时候，Spring会创建一个bean实例对象,自动装载在内存里面</strong></p>
+
+<h1>什么是JUnit</h1>
+
+<p>为什么交付项目做Junit测试</p>
+
+<p>静态引入 import static org.junit.Assert</p>
+
+<p>Errors 是程序失败，比如说在单元测试中定义 int a = 8 / 0 就会报error的错误
+Failure表示是测试失败， 就是预期的结果和实际的结果不太一样</p>
+
+<p>@Test注解提供2个参数：
+1，“expected”，定义测试方法应该抛出的异常，如果测试方法没有抛出异常或者抛出了一个不同的异常，测试失败；
+2，“timeout”，如果测试运行时间长于该定义时间，测试失败（单位为毫秒）。</p>
+
 
             </article>
         </div>
