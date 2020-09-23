@@ -13,11 +13,11 @@ header: Posts By Tag
       		<ul class="nav sidenav">
 			  	{% if site.tags.first[0] == null %}
 				  	{% for tag in site.tags %} 
-				  	<li><a href="{{ site.JB.tags_path }}#{{ tag }}-ref">{{ tag }} <span >({{ site.tags[tag].size }})</span></a></li>
+				  	<li><a href="{{ site.JB.tags_path }}#{{ tag }}-ref">{{ tag }} <span style="color: #52e617;">({{ site.tags[tag].size }})</span></a></li>
 				  	{% endfor %}
 				{% else %}
 				  	{% for tag in site.tags %} 
-				  	<li><a href="{{ site.JB.tags_path }}#{{ tag[0] }}-ref">{{ tag[0] }} <span style="color: #999999;" >({{ tag[1].size }})</span></a></li>
+				  	<li><a href="{{ site.JB.tags_path }}#{{ tag[0] }}-ref">{{ tag[0] }} <span style="color: #e61721;" >({{ tag[1].size }})</span></a></li>
 				  	{% endfor %}
 				{% endif %}
           	</ul>
@@ -29,7 +29,8 @@ header: Posts By Tag
         <div class="wrapper">
           <div class="home">
 
-          	{% for tag in site.tags %} 
+						{% for tag in site.tags %} 
+						{{ variable | jsonify }}
 			  <h2 id="{{ tag[0] }}-ref">{{ tag[0] }}</h2>
 			  <ul>
 			    {% assign pages_list = tag[1] %}  
