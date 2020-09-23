@@ -13,10 +13,8 @@
 	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl }}">
 	<link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ '/feed.xml' | prepend: site.baseurl }}">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
-	
 	<meta name="keywords" content="{{ page.title | append: ', ' | append: site.name | append: ', ' | append: site.meta_description}}">
 	<meta name="description" content="{{site.meta_description}}">
-
 	<script src="{{ '/styles/js/jquery.min.js' | prepend: site.baseurl }}"></script>
 	<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
 	<!--[if lt IE 9]>

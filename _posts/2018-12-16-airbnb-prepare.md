@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Airbnb面试"
+title:  "Airbnb Interview"
 date:   2018-12-17 13:31:01 +0800
-categories: jekyll
-tag: jekyll
+categories: 计算机技术
+tag: 面试
 ---
 
 * content

@@ -2,8 +2,8 @@
 layout: post
 title: Google面试准备
 date:   2019-03-02 01:00:00 +0800
-categories: document
-tag: 每日一题
+categories: 计算机技术
+tag: 刷题
 ---
 
 <h1>LeetCode 187. Repeated DNA Sequences</h1>

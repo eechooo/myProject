@@ -1,9 +1,9 @@
----
+<!-- ---
 layout: post
-title:  "西雅图 offer阿普 Onsite"
+title:  "Seattle Offerup Onsite"
 date:   2018-12-16 13:31:01 +0800
-categories: jekyll
-tag: jekyll
+categories: 计算机技术
+tag: 面试
 ---
 
 * content
@@ -90,4 +90,4 @@ firstly I have a overview of the task, and divide them into many small tasks and
 
 if i meet a problem during developing， I will actively seek help smartly,
 
-
+ -->

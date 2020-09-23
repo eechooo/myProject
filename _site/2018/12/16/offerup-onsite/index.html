@@ -1,0 +1,92 @@
+<!-- ---
+layout: post
+title:  "Seattle Offerup Onsite"
+date:   2018-12-16 13:31:01 +0800
+categories: 计算机技术
+tag: 面试
+---
+
+* content
+{:toc}
+<h2>Coding 部分</h2>
+<h3>1. Leetcode 652. Find Duplicate Subtrees</h3>
+
+<figure class="highlight"><pre><code class="language-java" data-lang="java"><span class="kd">class</span> <span class="nc">Solution</span> <span class="o">{</span>
+    <span class="kd">public</span> <span class="n">List</span><span class="o">&lt;</span><span class="n">TreeNode</span><span class="o">&gt;</span> <span class="nf">findDuplicateSubtrees</span><span class="o">(</span><span class="n">TreeNode</span> <span class="n">root</span><span class="o">)</span> <span class="o">{</span>
+        <span class="n">List</span><span class="o">&lt;</span><span class="n">TreeNode</span><span class="o">&gt;</span> <span class="n">res</span> <span class="o">=</span> <span class="k">new</span> <span class="n">ArrayList</span><span class="o">&lt;&gt;();</span>
+        <span class="n">HashMap</span><span class="o">&lt;</span><span class="n">String</span><span class="o">,</span><span class="n">Integer</span><span class="o">&gt;</span> <span class="n">map</span> <span class="o">=</span> <span class="k">new</span> <span class="n">HashMap</span><span class="o">&lt;&gt;();</span>
+        <span class="n">postOrder</span><span class="o">(</span><span class="n">root</span><span class="o">,</span><span class="n">map</span><span class="o">,</span><span class="n">res</span><span class="o">);</span>
+        <span class="k">return</span> <span class="n">res</span><span class="o">;</span>    
+    <span class="o">}</span>
+    
+    <span class="kd">public</span> <span class="n">String</span> <span class="nf">postOrder</span><span class="o">(</span><span class="n">TreeNode</span> <span class="n">cur</span><span class="o">,</span><span class="n">Map</span><span class="o">&lt;</span><span class="n">String</span><span class="o">,</span><span class="n">Integer</span><span class="o">&gt;</span> <span class="n">map</span><span class="o">,</span><span class="n">List</span><span class="o">&lt;</span><span class="n">TreeNode</span><span class="o">&gt;</span> <span class="n">res</span><span class="o">){</span>
+        
+        <span class="k">if</span><span class="o">(</span><span class="n">cur</span><span class="o">==</span><span class="kc">null</span><span class="o">)</span> <span class="k">return</span> <span class="s">"#"</span><span class="o">;</span>
+        <span class="n">String</span> <span class="n">serial</span> <span class="o">=</span> <span class="n">cur</span><span class="o">.</span><span class="na">val</span> <span class="o">+</span> <span class="s">","</span> <span class="o">+</span> <span class="n">postOrder</span><span class="o">(</span><span class="n">cur</span><span class="o">.</span><span class="na">left</span><span class="o">,</span><span class="n">map</span><span class="o">,</span><span class="n">res</span><span class="o">)</span> <span class="o">+</span> <span class="n">postOrder</span><span class="o">(</span><span class="n">cur</span><span class="o">.</span><span class="na">right</span><span class="o">,</span><span class="n">map</span><span class="o">,</span><span class="n">res</span><span class="o">);</span>
+        <span class="k">if</span> <span class="o">(</span><span class="n">map</span><span class="o">.</span><span class="na">getOrDefault</span><span class="o">(</span><span class="n">serial</span><span class="o">,</span> <span class="mi">0</span><span class="o">)</span> <span class="o">==</span> <span class="mi">1</span><span class="o">)</span> <span class="n">res</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">cur</span><span class="o">);</span>
+        <span class="n">map</span><span class="o">.</span><span class="na">put</span><span class="o">(</span><span class="n">serial</span><span class="o">,</span> <span class="n">map</span><span class="o">.</span><span class="na">getOrDefault</span><span class="o">(</span><span class="n">serial</span><span class="o">,</span> <span class="mi">0</span><span class="o">)</span> <span class="o">+</span> <span class="mi">1</span><span class="o">);</span>
+        <span class="k">return</span> <span class="n">serial</span><span class="o">;</span>   
+    <span class="o">}</span>
+<span class="o">}</span></code></pre></figure>
+
+
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">class</span> <span class="nc">Solution</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">findDuplicateSubtrees</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">root</span><span class="p">):</span>
+        <span class="s">"""
+        :type root: TreeNode
+        :rtype: List[TreeNode]
+        """</span>
+        <span class="n">m</span> <span class="o">=</span> <span class="n">collections</span><span class="o">.</span><span class="n">defaultdict</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
+        <span class="n">res</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">dfs</span><span class="p">(</span><span class="n">root</span><span class="p">,</span> <span class="n">m</span><span class="p">,</span> <span class="n">res</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">res</span>
+        
+    <span class="k">def</span> <span class="nf">dfs</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">root</span><span class="p">,</span> <span class="n">m</span><span class="p">,</span> <span class="n">res</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">root</span> <span class="ow">is</span> <span class="bp">None</span><span class="p">:</span>
+            <span class="k">return</span> <span class="s">'#'</span>
+        <span class="n">path</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">root</span><span class="o">.</span><span class="n">val</span><span class="p">)</span> <span class="o">+</span> <span class="s">","</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">dfs</span><span class="p">(</span><span class="n">root</span><span class="o">.</span><span class="n">left</span><span class="p">,</span> <span class="n">m</span><span class="p">,</span> <span class="n">res</span><span class="p">)</span> <span class="o">+</span> <span class="s">","</span> <span class="o">+</span>  <span class="bp">self</span><span class="o">.</span><span class="n">dfs</span><span class="p">(</span><span class="n">root</span><span class="o">.</span><span class="n">right</span><span class="p">,</span> <span class="n">m</span><span class="p">,</span> <span class="n">res</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="n">m</span><span class="p">[</span><span class="n">path</span><span class="p">]</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="n">res</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">root</span><span class="p">)</span>
+        <span class="n">m</span><span class="p">[</span><span class="n">path</span><span class="p">]</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="k">return</span> <span class="n">path</span></code></pre></figure>
+
+
+<h3>2. Leetcode 200.number of islands</h3>
+可以用bfs和 dfs来解决， 后面的followup如下，
+
+<figure class="highlight"><pre><code class="language-java" data-lang="java"><span class="mi">1</span> <span class="mi">1</span> <span class="mi">0</span> <span class="mi">0</span> <span class="mi">0</span> <span class="mi">1</span>
+<span class="mi">0</span> <span class="mi">0</span> <span class="mi">0</span> <span class="mi">0</span> <span class="mi">0</span> <span class="mi">0</span>
+<span class="mi">1</span> <span class="mi">0</span> <span class="mi">0</span> <span class="mi">0</span> <span class="mi">0</span> <span class="mi">0</span>
+<span class="mi">1</span> <span class="mi">1</span> <span class="mi">0</span> <span class="mi">1</span> <span class="mi">0</span> <span class="mi">0</span></code></pre></figure>
+
+
+1 island, 0 water, 返回matrix，要求 matrix里面的0 替换成 到达最近岛屿的距离，这道题要求的时间复杂度是O(m*n), 这道题其实可以和leetcode里面一道wall and gates联系在一起， 时间复杂度是O (m * n)的做法就是循环遍历一遍matrix将1的点全部放在queue里面
+为什么时间复杂度是O(m * n), 仔细体会一下
+
+<h2>Behavior Question 部分</h2>
+<h3>1. Why Offerup</h3>
+This is a career path that I want to seek, offerup has many users which can help me built my skill set
+1. I have seen in the cruchbase it recored offerup raise a lot of funding recently and grow up fast ，I wanna join such company and grow up with such a company
+
+2. when I was a undergraduate student, I am thinking about develop a online platform for students to trade their second hand book or second hand computer, however, It did not go to public , I would say join offerup match my interest and passsion
+
+those reasons are why I choose offerup
+<h3>2. How to Handle Conflicts With Team Members</h3>
+when there is a conflict, there are also two different ideas, for example I have plan A, my team member has plan B, I will have a detailed description (maybe this description will in my mind, or description was written down in the paper) before I talk with my team member, I will describe my solution and also 
+
+reach to agreement, maybe in the final we could have plan C, which will be better solution, after all
+
+<h3> 3. how to finish the task in limited time </h3>
+
+1. have overview of the whole project, estimate how long it will take to finish it
+2. report this situation to manager, and be sure that I will finished it as soon as possible
+
+I remembered I need to provide weather API solution for our customer, our customer will release their product recently, so it is a very urgent requirement, not only I need to 
+
+firstly I have a overview of the task, and divide them into many small tasks and put priority to the task, and record it in the trello, let team members know my progress in this project, also I will dedicated to this task, if it was a very urgent task, I will stay up to late to finish as much as possible I could and also let my team member know my progress,
+
+if i meet a problem during developing， I will actively seek help smartly,
+
+ -->

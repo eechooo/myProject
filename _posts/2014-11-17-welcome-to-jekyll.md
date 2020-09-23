@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Amazon OA 3题"
 date:   2014-11-17 13:31:01 +0800
-categories: jekyll
-tag: jekyll
+categories: 计算机技术
+tag: 面试
 ---
 
 * content
@@ -233,7 +233,7 @@ class Iterator {
 
 {% endhighlight %}
 
-First POST build by Jekyll.
+<!-- First POST build by Jekyll.
 
 
 诫子书				{#zhugeliang}
@@ -251,4 +251,4 @@ First POST build by Jekyll.
 
 [jekyll]:      http://jekyllrb.com
 [jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+[jekyll-help]: https://github.com/jekyll/jekyll-help -->
