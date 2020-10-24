@@ -5,28 +5,629 @@
     <description>做时间的朋友!</description>
     <link>http://localhost:4000/myProject/</link>
     <atom:link href="http://localhost:4000/myProject/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 04 Oct 2020 15:34:23 -0700</pubDate>
-    <lastBuildDate>Sun, 04 Oct 2020 15:34:23 -0700</lastBuildDate>
+    <pubDate>Fri, 23 Oct 2020 21:09:55 -0700</pubDate>
+    <lastBuildDate>Fri, 23 Oct 2020 21:09:55 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
-        <title>白居易北美买房指北&lt;3&gt;</title>
+        <title>Las Vegas 买房记</title>
+        <description>&lt;p&gt;2018年11月份我在vegas买了第一套房，房子还是挺漂亮的, 买房子的过程当中学到了很多知识，也遇到了很多坑，也是给自己第二次买房子积累了一些经验&lt;/p&gt;
+
+&lt;p&gt;2017年周围的朋友都买房了，当时湾区的房地产市场异常火爆，我也迫切想拥有一套房, 继而了解到买房子的诸多好处，所以就动了买房子的想法，买房子之前我是用zillow查看了西部所有大城市的房价，包括西雅图, 旧金山，San Jose, San Deigo&lt;/p&gt;
+
+&lt;p&gt;然后发现Las Vegas这个城市映入我的眼帘, 因为Vegas的房价实在是太便宜了，2017年房地产市场异常火爆，尽管2017年vegas的房市火了一波。vegas的市场上依然还是有一大波便宜的房子，27万左右就可以买到一套很不错的Single Family House了。 所以我就动心了，开始在网上联系房地产中介去看房&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/myProject/styles/images/realestate/5116.png&quot; alt=&quot;5116&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;计算租售比&quot;&gt;计算租售比&lt;/h2&gt;
+
+&lt;p&gt;因为买的是投资房，所以买房子之前就必须要了解租售比嘛，当时是房产小白，计算了一下租售比，也是从中介口中得到的数据，就是当地30万美元的房子，大概能租到2000美元一个月，我就心里盘算了一下我买个30万美元的房子，如果贷款百分之80，按照当时的利率百分之五，加上房地产税保险，一个月应该1700美元左右，算下来每个月还有现金流，这样看起来在vegas买房子，真的是一个非常不错的选择了。再对比一下国内的情况，怎么可能有这么好的情况。 就更想在vegas盘下来一套房子。&lt;/p&gt;
+
+&lt;h2 id=&quot;看房子&quot;&gt;看房子&lt;/h2&gt;
+
+&lt;p&gt;我在网上找了好几个中介，基本上很多中介都是要求我从银行里面拿到预批信之后才愿意带我看房. 我找的那个中介还是挺好的，即使我没有贷款预批信，还是带我在vegas看房子。Vegas分为好几个地方。&lt;/p&gt;
+
+&lt;p&gt;比较差的地方是北Vegas，据说那里特别乱，很多人住在vegas，都没有去过北Vegas，所以在那里投资，肯定不是个好的选择&lt;/p&gt;
+
+&lt;p&gt;比较好的地区有Summerlin，也是Vegas最贵的区域，Henderson，vegas很多白人住在这里，在Vegas表演的那些过气明星啊，他们也是住在这里。靠近Summerlin的南边一个地方叫Spring Valley，也是一个不错的地方，很多人在这里居住，社区环境也不错，所以我把我的看房区域锁定在这个地方。&lt;/p&gt;
+
+&lt;p&gt;刚开始看了很多房子，不得不说有的房子真的是硬伤，有的房子直接对着路口，路冲。中国买家肯定是不会买的，还有个映象比较深刻的就是，房子基本上是年久失修了，屋顶漏水，导致墙面上有水渍。有些房子是太暗了。有些房子外表看起来很不错，走进去一看，东西都太旧了。总的老说看了20多套房子，满意的也就一套，二套左右。&lt;/p&gt;
+
+&lt;p&gt;这个时候我的中介，就提议带我去看看新房，一般建筑商都是会有样板房供你参观，不得不说看了样板房，经过建筑商的精心设计，就再也看不上二手房子了。新房也有个问题，就是大家都喜欢新房子，新房子没有近期可以搬进去的。这个时候我的中介和我说，靠近Summerlin的地方有个小区还有最后一套房子，问我要不要去看一下。这一看，我就决定买下来了，在一个小区十字路口的交叉处，位置并没有那么好的，但是房子不是路冲，房子的颜色也是我喜欢的。位置也比较好。&lt;/p&gt;
+
+&lt;h2 id=&quot;和中介打交道&quot;&gt;和中介打交道&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;买房子的过程中，一定要记住，中介的目的是想你尽快达成交易，让你把房子买下来。除非房子有硬伤，中介不劝你买，其他情况下，中介都会劝你买。我现在还记得当时买房子的时候，我在犹豫投资的回报率，我的中介就忽悠我说，你看你，现在买了房子之后，把房子交给我打理，我来做Airbnb，这样的话一个月少说要赚个2700美元左右。听到这个话，谁不心动呢，想想你一个月贷款1700，1800美元左右，一个月能有1000美元左右的cash flow, 谁不心动 ？？？&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;事实上，Airbnb在Vegas的主要county是被政府命令禁止的。但是还是有一些人在私底下偷偷的做，但是如果你的邻居举报你，政府有可能是会给你开罚单的。所以你要去Vegas买房，遇到中介这样和你说, 你是要小心的&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;和中介打交道的过程中，大部分中介为了帮助你尽快成交，会给你一个rebate，说的明白一点就是，中介会把佣金的一部分作为买房子的费用，其实买房子的时候，你就可以和中介讨论一下给多少返佣。房子快要买下来的时候，你再和中介讨论这个估计就是有点晚了&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;贷款&quot;&gt;贷款&lt;/h2&gt;
+
+&lt;p&gt;买房子的话一定要贷款，不贷款买房子没有意思，有个说法就是，自住房贷款是这个世界上，你能找到最便宜的资金了，一般买房子都是百分之二十的首付，甚至百分之十的首付。就可以加九倍杠杆去购买房子，利率还是最低的。早前很多人通过贷款买房，然后从一个农村穷小子变成东方明珠，十里洋场的新一代有钱的上海人。深圳人，东京人。也有人通过买房子，在美国变成了拥有百万美元净资产的美国人。这样的故事在世界上很多地方都上演过。所以，看文章的你，有可能会成为下一个拥有百万美元的净资产的房地产投资人。&lt;/p&gt;
+
+&lt;p&gt;撇下上面的那些牛皮，我来说说买房贷款需要注意一点什么吧&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;买新房子，如果你买新房子的话，大概率是你从房地产开发商那里贷款，能拿到比较好的优惠，他们甚至会给你免去几千刀的优惠，这也是我当时犯的一个错误，如果我要从建商那里贷款的话，无论是利率还是最后的closing cost都是比较好的，当时我的担心是，我的英语还不够好，贷款这么专业的事，我还是需要一个专业的人用汉语给我解释，就让房屋中介帮我refer了一个贷款中介。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;这个贷款中介真的有点坑，给我的承诺是百分之5的利率，最后给我弄到了百分之5.625的利率，写到这里我就想给未来买房的人一个建议，就是贷款的时候其实是可以货比三家的, 贷款的时候，你的贷款中介(loan agent)会去三大信用局调取你的信用分数，按照他们的模型计算之后，应该会比你当前在银行里面看到FICO分数低一点。&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;你可以同时联系2个到3个中介，让他们给你quote一下利率，这个时候他们都会去信用局调用你的信用记录，如果是在一个月内调用的，这几个hard pull在信用局其实是可以合并成一个hard pull的，你再继续去锁定利率。锁定利率这里我其实还不是特别清楚，什么时候锁定，是房子进入合同的时候锁定，还是什么时候锁定，可以同时让2个 loan agent去锁定利率嘛。这些都是需要考虑的&lt;/p&gt;
+
+&lt;p&gt;下一篇我将会写&lt;/p&gt;
+
+&lt;h3 id=&quot;如何重新贷款降低利率提高现金流-敬请期待&quot;&gt;如何重新贷款降低利率，提高现金流 敬请期待。。。&lt;/h3&gt;
+
+</description>
+        <pubDate>Thu, 22 Oct 2020 09:00:00 -0700</pubDate>
+        <link>http://localhost:4000/myProject/2020/10/22/las-vegas-buy-home/</link>
+        <guid isPermaLink="true">http://localhost:4000/myProject/2020/10/22/las-vegas-buy-home/</guid>
+        
+        <category>Real Estate</category>
+        
+        
+        <category>Real</category>
+        
+        <category>Estate</category>
+        
+      </item>
+    
+      <item>
+        <title>十月读书笔记</title>
+        <description>&lt;h3 id=&quot;十月计划&quot;&gt;十月计划&lt;/h3&gt;
+
+&lt;p&gt;十月份有很多计划，比如一些要做的事情, 一些要完成的任务&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;读书笔记中,想写一下Irvine这个城市的发展历史&lt;/li&gt;
+  &lt;li&gt;写一些重新贷款的注意事项&lt;/li&gt;
+  &lt;li&gt;real estate 的购买和贷款计划&lt;/li&gt;
+  &lt;li&gt;李笑来把时间做朋友的读书笔记&lt;/li&gt;
+  &lt;li&gt;买房子，如果回国怎么卖，房子卖掉之后税率怎么算&lt;/li&gt;
+  &lt;li&gt;以second home, primary residence 和 invest home 贷款的区别&lt;/li&gt;
+  &lt;li&gt;开发软件的话，可以开发代理加速器, online dating, 在线的一些计算工具&lt;/li&gt;
+  &lt;li&gt;如何掌握比特币的私钥&lt;/li&gt;
+&lt;/ol&gt;
+
+</description>
+        <pubDate>Mon, 05 Oct 2020 09:00:00 -0700</pubDate>
+        <link>http://localhost:4000/myProject/2020/10/05/reading-notes-and-daily-plan/</link>
+        <guid isPermaLink="true">http://localhost:4000/myProject/2020/10/05/reading-notes-and-daily-plan/</guid>
+        
+        <category>读书笔记</category>
+        
+        
+        <category>读书笔记</category>
+        
+      </item>
+    
+      <item>
+        <title>白居易北美买房指北&lt;5&gt; - 模板</title>
+        <description>&lt;p&gt;想讲的那点事儿其实可以用时下一句很火的话概括的：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;No zuo no die!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;当然，这是一条很厉害的真理，感觉能解释这世间所有事情的样子……&lt;/p&gt;
+
+&lt;h3 id=&quot;缘起&quot;&gt;缘起&lt;/h3&gt;
+
+&lt;p&gt;决定写这么一篇笔记当然不是大周末独自在床上辗转反侧纠结半天要不要起床而凭空蹦出来的念头，而是源自 Connie 酱发给我的一个挺火的天涯讨论帖，它让我想起大学时代的自己和身边的一群人在夕阳下的奔跑，那是我们的青春啊扯远了……把帖子里的一些观点拿过来往那时（也许包括现在）的我们身上套用一下，惊奇地发现中了好多枪但却并不冤枉。&lt;/p&gt;
+
+&lt;p&gt;虽然现在一般的天涯帖子都已经无法逃脱楼主爆料——楼主被喷——楼主回喷——路人莫名秀优越——路人被喷——喷子互喷的宿命了，但机智的我还是尽量客观地提炼出了其中有用的观点，有兴致有时间的童鞋们可以看原链接，本笔记正文内容可视作原帖脱水浓缩精华不完整版。&lt;/p&gt;
+
+&lt;p&gt;原帖链接：&lt;a href=&quot;http://m.tianya.cn/bbs/art.jsp?item=funinfo&amp;amp;id=6013376&amp;amp;vu=18452407510&amp;amp;fr=android&quot;&gt;能不能问个问题？我们工科男条件不差为什么找不到对象？&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;缘落&quot;&gt;缘落&lt;/h3&gt;
+&lt;p&gt;下面才是正文：&lt;/p&gt;
+
+&lt;p&gt;（其实这些点估计大学时代会中枪多一点，进社会后或多或少会被推动改掉一些。）&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;交际面窄&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;如果你想有一个女朋友，首先你得有一个（堆）女生朋友，不然不止会发现一直缺货，还会直接导致完全不知道如何与女生相处的问题。工科专业和从事的行业一般本来女生就偏少，如果平时的一些认识其它人的机会也不抓住的话，那你很可能多年下来认识的女生能用手指头数出来。&lt;/p&gt;
+
+    &lt;p&gt;没有多认识人的机会？不可能……比如，下雨天去主动借个伞给顺眼的姑娘啥的^_-&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;自我感觉良好&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;这里主要存在你眼中的自己和女生眼中的你的落差太大的问题。&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;楼主我是一个女生有很多男生朋友，而且我们都是工科的来告诉你。。。其实就一句话：你们自己的感受和女生的感受不一样。我经常跟朋友说我喜欢男生短头发干干净净的，穿的要利索。。。我朋友说我这样不是挺好的嘛。。。拜托啊啊啊啊，你们穿着一件合身的衣服没错，但是皱皱巴巴的看起来质量就不好啊，头发五厘米翘起来跟个超级赛亚人一样，鞋子就算你不洗，但是鞋底那圈白边变成了看出不来颜色是怎么回事啊啊啊吧。。。还有瘦不拉几要么一身肥肉的身板。。看起来精神呢？男生说好的荷尔蒙呢？我们专业也有几个大咖有女票，但是人家迎面走来那股子精神气简直charming.建议，上了大学不管家庭条件怎么样，衣服在精不在多，衣服好看，把自己收拾干净，别特么搞个子弹头神马的，找到适合自己的，别整个人像是刚刚从游戏上爬下来一脸油。。。。动不动话题就是lol……..做个认认真真的美少年好嘛？？好嘛？？？好嘛？？？？&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;p&gt;你眼中阳光帅气能迷倒万千少女的自己：&lt;/p&gt;
+
+    &lt;p&gt;女生眼中不修边幅情商爆低邋遢猥琐的你：&lt;/p&gt;
+
+    &lt;p&gt;如何了解别人眼中的自己？那是个问题。也许可以参考无秘最近做的「我的好友印象墙」。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;一心只想追女神&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;这是天涯网友们举出过若干实例来举证过的问题，应该确实广泛存在。&lt;/p&gt;
+
+    &lt;p&gt;随手引用一个：&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;在理工科学校读的理工科，其实工科男生是真的不错，我认识的都挺好，找不到女朋友的原因是，在他们青春的阶段，基本上几乎都在追求女神。&lt;/p&gt;
+
+      &lt;p&gt;我们班的男生，大学四年里，每天都在嫌弃自己班、自己学院的女生长得丑，对于那种普普通通的女孩看都不看，就是一门心思追女神，追语言学院的院花，之类的，我们班总共 30 个人，有 11 个男生追过同一个女的，是个女神，光我们班就 11 个男的追，你想想，不是因为女的少，我们学校不远就有个文科院校，我们学校男生去追的，还是文科院校女神级的人物，就那几个，那个学校的普通女孩照样没戏，每天一群普通女的来我们堕落街吃麻辣烫，大学四年女光棍。&lt;/p&gt;
+
+      &lt;p&gt;后来毕业以后进了一个工科类的单位，也是很多单身男，跟大学时代差不多的问题，一起进来的一批里面有一个漂亮的女生，一起进来的这批的所有男生同时追求她，真的是，所有单身的男的没有一个不在追她，前几年先来的也同时追求她，就是所有人同时追一个，如果我们劝说单身男还有谁谁谁也不错啊，他们还是执迷不悟的，用我同事的原话是，哥挣这么多钱，就想找个自己喜欢的不可以？后来那一个漂亮的女孩很快挑了个最好的，到了第二年，又进了一批新同事，照样有一个最漂亮的，于是又是所有人同时追那一个，场面真的很壮观。&lt;/p&gt;
+
+      &lt;p&gt;一定得要到了快 30 岁，想结婚的时候，才想找个普通女孩安定下来，我们单位就是，几年下来，之前围绕着女神的，眼见自己家里催得紧，打算还是追个单位的次一点女孩算了，但是那次一点女孩心想你以前狂追女神表白送饭买礼物大伙都知道，你给女神当着备胎，我答应你岂不是我又自己把自己当备胎，然后男生就大呼我条件不差为什么找不到对象，最后就沦落到相亲市场上去了，好在相亲市场上工科男还是挺吃香的。&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;p&gt;能逆袭到女神的当然是少数，然后网友又犀利地总结了追求女神失败后的状况：&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;别说就想找个普普通通的妹子，你们这个普普通通里肯定包含着温柔、善解人意、爱做家务、穿着漂亮、长相清秀、肤白身材苗条、清纯、可爱、能带得出去、兴趣相投、最好还会点手工比如织个围巾什么的。&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;不主动&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;这又是另一个极端了。这种情况下除非你是个大帅逼或者其它什么方面能吸引你心仪的女生来倒追你，否则你还是主动点吧没错的。&lt;/p&gt;
+
+    &lt;p&gt;有网友猜测了楼主的心态：&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;你压根不是想学习想了解为什么「自己找不到」姑娘，而是奇怪为什么「好看的」姑娘「不投怀送抱」。&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;猥琐邋遢&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;一位网友这样总结工科男的形象：&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;一副方便面头皮屑发型，盐菜衬衫，上身皱巴巴西装配下身脏兮兮牛仔裤和白色变灰色的球鞋，袜子能矗立，满脸青春痘，撸管撸到右手有茧，一米六的大个子，穷到经常哭跟银根紧缩，问题是整天还意淫着要追白富美。&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;p&gt;虽然说得夸张，但是也确实能说明一些问题的，因为很多很多网友们提到了工科男聚集的地方都有生化武器……化武器……武器……器……&lt;/p&gt;
+
+    &lt;p&gt;不修边幅不讲卫生不拘小节，穿拖鞋四处溜达，不会搭配衣服，头发油腻气味销魂……槽点确实很多。不要说女生肤浅，人不都一样嘛，就算你有一颗再高尚的灵魂总得让别人先有兴趣接近你才能了解的到。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;木讷呆板&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;虽然现在也有一些女生天天花痴一些呆萌的东东比如萌宠啊啥的，但是第一，你不是不会讲话的宠物，别人对你的预期不同；第二，呆不一定会带来萌，真的。萌属性理工男的真相：&lt;/p&gt;
+
+    &lt;p&gt;你可以吗？&lt;/p&gt;
+
+    &lt;p&gt;然后还有很多人对工科男一直有「三脚踹不出个屁」来的印象，这种状况的人当然不是所有，但占比应该也不少。好些人连吃饭时都只聊学术，看电影只看科幻和打打杀杀，毫无幽默细胞，那你能聊到的话题也许就限于此了，这些当然对不了妹子们的胃口。再有就是把专业职业带到生活中钻不出来，不会找别人感兴趣的话题，听不出妹子们语言背后的涵义……这让我感到绝望。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;不会照顾人&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;好不容易逮着跟女生的相处的机会了，却可能就会让女生觉得你情商太低，幼稚，不够绅士，好多事情想不到，也不知道怎么关心人，等等等等。&lt;/p&gt;
+
+    &lt;p&gt;这其实也许是因为跟女生接触太少造成的，但是跟女生接触少不能成为被原谅的理由啊，又没谁逼你那么干……&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;不尊重不漂亮的女生&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;有占比不少的人患有真命天女综合症，在女神和美女面前各种殷勤跪舔即使被嫌弃得要死也要往上凑，而对其它长相一般感觉兴趣不大看不上的女生连正常交往的礼仪都失掉了，这会让她们的漂亮同伴们对你的人品产生怀疑，从而让她们圈子的人全都跟你保持距离。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;技术控&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;这个不能算纯粹意义上的槽点，但是过犹不及，如果自己待着的时候一心埋头搞技术，跟人相处的时候还是满脑子都是，遇到一点由头就要借机牵出话题来大扯一通还觉得自己高端，动不动说你们不懂，那估计很难有人更别说有女生受得了了。&lt;/p&gt;
+
+    &lt;p&gt;你引以为豪的技术在妹子们眼里也许啥也不是，有网友曰过：&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;妹子们对于工科的各个学科没有概念，机械的就是修挖掘机的；计算机软件的就是修电脑重装系统的；土木就是盖房子的……工科在她们眼里统称搞技术的，至于搞哪项技术其实没多大区别。&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;缘结&quot;&gt;缘结&lt;/h3&gt;
+
+&lt;p&gt;就说这些吧，这就是所有了吗？当然不是，在这个看脸的世界，机智的女网友会告诉你「真相」：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;报仇的机会来了，我要回一个你们男人经常在妹纸问为什么没对象的帖子里经常回的理由，那就是，因为丑~&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;装逼陈词：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;凡事皆有因果，不要总以为众人皆醉我独醒，其实更多时候是自己醉得不轻。&lt;/li&gt;
+  &lt;li&gt;犯错不可怕，可怕的是一直犯着同样的错误而不自知。&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Mon, 05 Oct 2020 09:00:00 -0700</pubDate>
+        <link>http://localhost:4000/myProject/2020/10/05/how-to-model/</link>
+        <guid isPermaLink="true">http://localhost:4000/myProject/2020/10/05/how-to-model/</guid>
+        
+        <category>北美地产</category>
+        
+        
+        <category>投资</category>
+        
+      </item>
+    
+      <item>
+        <title>白居易北美买房指北&lt;5&gt; - 重新贷款</title>
+        <description>&lt;p&gt;重新贷款&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 05 Oct 2020 09:00:00 -0700</pubDate>
+        <link>http://localhost:4000/myProject/2020/10/05/how-to-buy-house-in-us-6/</link>
+        <guid isPermaLink="true">http://localhost:4000/myProject/2020/10/05/how-to-buy-house-in-us-6/</guid>
+        
+        <category>北美地产</category>
+        
+        
+        <category>投资</category>
+        
+      </item>
+    
+      <item>
+        <title>学习 - 摘录，值得反复琢磨</title>
+        <description>&lt;hr /&gt;
+&lt;p&gt;layout: post
+title: 更聪明地学习，而不是苦读——《如何高效学习》
+categories: Blog
+description: 《如何高效学习》的吐槽与读书笔记。
+keywords: 如何高效学习，读书笔记，吐槽
+—&lt;/p&gt;
+
+&lt;p&gt;我们可能都听过一句话：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;吾生也有涯，而知也无涯。以有涯随无涯，殆已！——《庄子. 内篇. 养生主第三》&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;所以，需要持续大量学习的童鞋，比方说我等程序员们，除了要从知识的海洋中精挑细选出我们想要的内容，挑完了还得高效学习，不然成长的速度可能远远赶不上脱发的速度，沦落到「他变秃了，也没变强」的尴尬境地。&lt;/p&gt;
+
+&lt;p&gt;更聪明地学习，而不是苦读——这是我打开 Kindle for Mac 后看到的第一句话，最近读的这本 &lt;a href=&quot;https://book.douban.com/subject/25783654/&quot;&gt;《如何高效学习》&lt;/a&gt; 正是一本关于此话题的书。&lt;/p&gt;
+
+&lt;h2 id=&quot;关于本书&quot;&gt;关于本书&lt;/h2&gt;
+
+&lt;p&gt;作者 Scott H. Young，这哥们是个神人，超级学霸，比较广为人知的事迹是他的 &lt;a href=&quot;https://www.scotthyoung.com/blog/myprojects/mit-challenge-2/&quot;&gt;MIT Challenge&lt;/a&gt;，用一年的时间自学完 MIT 计算机专业四年 33 门课程（当然，他不是 MIT 的学生，没有拿到学位）。有关他的更多信息可以访问 &lt;a href=&quot;https://www.scotthyoung.com/&quot;&gt;Scott H. Young&lt;/a&gt; 了解。&lt;/p&gt;
+
+&lt;p&gt;这本书里就是介绍他自己总结的学习方法，主要就是所谓「整体性学习」。&lt;/p&gt;
+
+&lt;p&gt;在开始读书笔记之前我忍不住要先来一段吐槽。&lt;/p&gt;
+
+&lt;h2 id=&quot;前置吐槽&quot;&gt;前置吐槽&lt;/h2&gt;
+
+&lt;p&gt;这本书的英文原书名为 &lt;a href=&quot;https://book.douban.com/subject/11603298/&quot;&gt;Learn More, Study Less&lt;/a&gt;，豆瓣评分 8.0，中文版叫 &lt;a href=&quot;https://book.douban.com/subject/25783654/&quot;&gt;《如何高效学习》&lt;/a&gt;，豆瓣评分 7.4，这中间差的 0.6 分，看了一些书评，我估计很多读者会认为是被译者吃了，豆瓣上有好些网友在 &lt;a href=&quot;https://book.douban.com/subject/25783654/comments/&quot;&gt;跪求译者不要再译书了&lt;/a&gt;。:cry:&lt;/p&gt;
+
+&lt;p&gt;我……也有点这种感觉。奈何我啃英文太慢了，所以还是先看了中文版，然后才找到原著对照理解了部分内容，英文阅读水平还行的同学建议直接读原著。&lt;/p&gt;
+
+&lt;p&gt;以下是我阅读中文版过程中想吐槽的一些点：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;过多不必要的「译者注」，而且是放在正文里的；&lt;/p&gt;
+
+    &lt;p&gt;比如这里，整整一页的译者注，但实际注解得并不好，也无必要。&lt;/p&gt;
+
+    &lt;p&gt;适当的留白和思考空间留给读者自己可能更好。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;「导读」里花了几页来讲的「吃饭模型学习法」，可以看出是想应用书中大力推崇的比喻，但用得牵强附会了，并无助于理解，放在书的开头反而让人纳闷；&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;同一个场景下的同一名词，在书中有不同的翻译；&lt;/p&gt;
+
+    &lt;p&gt;比如整体学习的五个阶段里的第二阶段有时被翻译为「理解」，有时被翻译为「明白」。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;有翻译错误 / 不准确的情况；&lt;/p&gt;
+
+    &lt;p&gt;比如，整体学习的五个阶段，这是非常重要的信息，但是，原文：&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Explore - The Explore Phase is really where holistic learning takes full force. Here you form the models, highways and broader connections needed for well defined constructs.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;p&gt;译文：&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;拓展 - 拓展阶段是整体性学习中最花力气的地方，这一步将形成模型、高速公路和广泛和联系，从而获得良好的结构。&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;p&gt;我得说，这真不如机器翻译的：&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;正文中有一些关于学习医学的例子，原著中并没有，是译者自行添加的。&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;好了吐槽完毕，记笔记记笔记。&lt;/p&gt;
+
+&lt;h2 id=&quot;读书笔记&quot;&gt;读书笔记&lt;/h2&gt;
+
+&lt;h3 id=&quot;摘录&quot;&gt;摘录&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;所谓的聪明是指能学得更快、记得更多更牢，而且信息的组织非常适合完成自己的目标。——Scott H. Young 对聪明的定义&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;整体性学习的基础就是将知识关联起来以达到记忆和应用知识的目的，开始学习的最佳技术是比喻、内在化、基于流程的记事和画图表法，这些方法构成了整体性学习的基础。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;要想超出知识本身，光有热情还不够，你要寻找各种应用知识的途径（即使现在讨厌它），知识因“用”而获得新的意义。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;比喻就是在不熟悉的知识和熟悉的知识之间架起一座沟通的桥梁。&lt;/p&gt;
+
+  &lt;p&gt;莱考夫把隐喻定义为“以一种事物认知另一种事物”，而这恰恰就是学习的本质。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;知识点&quot;&gt;知识点&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;整体性学习相关的概念&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;机械记忆 VS 整体性学习——死记硬背 VS 将各种知识相互关联，建立信息的网络。&lt;/p&gt;
+
+&lt;p&gt;整体性学习基于三个主要思想：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;结构：结构就是一系列紧密联系的知识；（城市）&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;模型：模型是结构的快照，更为简单和更易储存；（结构的抽象）&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;模型有很多种形式，但是目标总是同样的：那就是压缩信息。&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;高速公路：结构与结构之间的联系；（城市之间的高速公路）&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;整体性学习的阶段与顺序：&lt;/p&gt;
+
+&lt;p&gt;信息结构（分类）：&lt;/p&gt;
+
+&lt;p&gt;Scott 将信息作以下分类，学习新的知识时，首先判断信息主要属于哪一类，然后采取对应的处理方法。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;整体性学习的技术&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;作者在书中也多次提到，这些技术如果只是了解而不去练习和实践，是没有什么用的。书中提供了很多「智力挑战」，具体请参考原著。&lt;/p&gt;
+
+&lt;p&gt;Part 1 获取知识&lt;/p&gt;
+
+&lt;p&gt;一、快速阅读&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;指读法&lt;/p&gt;
+
+    &lt;p&gt;对就是你想的那个指读法。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;练习阅读法&lt;/p&gt;
+
+    &lt;p&gt;类似我们以前做阅读理解的练习，目的是训练自己以尽可能快的速度理解所读内容。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;积极阅读法&lt;/p&gt;
+
+    &lt;p&gt;强调深入地理解材料，类似于所谓「精读」，每读完一小部分都对应做一些笔记。&lt;/p&gt;
+
+    &lt;p&gt;积极阅读时带着三个问题：&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;这部分的主要知识点是什么？&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;怎样才能记住主要知识点？（联系、视觉化和比喻）&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;怎样将知识点应用到实际情境中？&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;二、笔记流&lt;/p&gt;
+
+&lt;p&gt;尽量简短地写下主要知识点（找重点），然后用箭头将它们联系起来，可以结合简易图像、表格。&lt;/p&gt;
+
+&lt;p&gt;Part 2 联系观点&lt;/p&gt;
+
+&lt;p&gt;主要处理困难信息（抽象信息、随意信息等）和关键信息（构成学习其它知识的基础）。&lt;/p&gt;
+
+&lt;p&gt;一、比喻&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;在不熟悉的知识和熟悉的知识之间架起一座沟通的桥梁。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;二、内在化&lt;/p&gt;
+
+&lt;p&gt;调用各种感知与知识联系在一起，比如视觉（脑海中出现图像）、听觉、触觉和情感等。&lt;/p&gt;
+
+&lt;p&gt;三、简图法&lt;/p&gt;
+
+&lt;p&gt;将多个信息压缩成一幅简图。主要可以借助流程图（步骤、脑图）、概念图（知识点及联系）和涂鸦。&lt;/p&gt;
+
+&lt;p&gt;Part 3 随意信息的处理&lt;/p&gt;
+
+&lt;p&gt;一、联想法&lt;/p&gt;
+
+&lt;p&gt;将一系列知识点串连在一起，就像链条，一旦进入链条中的一环，就可以轻易地到达链条中的其它环节。&lt;/p&gt;
+
+&lt;p&gt;二、挂钩法&lt;/p&gt;
+
+&lt;p&gt;建立你自己的基本数字字典，然后将要记忆的信息与这些数字联系在一起，再查字典用数字的含义编一个小故事。（这玩意作为一个记忆方法太绕了，是否真有人这样用我表示怀疑）&lt;/p&gt;
+
+&lt;p&gt;三、信息压缩技术&lt;/p&gt;
+
+&lt;p&gt;储存大量随意信息的方法，目标是精简信息，寻找逻辑关系。&lt;/p&gt;
+
+&lt;p&gt;三种方法：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;记忆术——用一个短语或者单词来储存数个信息的方法。&lt;/p&gt;
+
+    &lt;p&gt;如用各单词的首字母拼成一个简单通用的短语或单词。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;图像联系——我感觉同上面提到的「简图法」。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;笔记压缩——将很多知识压缩到几页笔记里，试图快速掌握大量材料。&lt;/p&gt;
+
+    &lt;p&gt;用小字将主要知识点及与之相联系的重要内容写下来，结合简图。&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Part 4 知识扩展&lt;/p&gt;
+
+&lt;p&gt;一、实际应用&lt;/p&gt;
+
+&lt;p&gt;总是努力把知识应用于实际，会记得更牢。&lt;/p&gt;
+
+&lt;p&gt;比如：在一堆东西里快速找到想要的那个，可以考虑用二分法。&lt;/p&gt;
+
+&lt;p&gt;二、模型纠错&lt;/p&gt;
+
+&lt;p&gt;在练习和实践中发现问题、纠正问题。&lt;/p&gt;
+
+&lt;p&gt;三、基于项目的学习&lt;/p&gt;
+
+&lt;p&gt;设定一个合适大小的目标，做好计划，围绕着目标学习。&lt;/p&gt;
+
+&lt;p&gt;作者的几点建议：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;目标不要太大，可以试试 1-3 个月的项目；&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;将工作进度和过程记录下来，看着已经完成的工作可以增强信息和继续下去的欲望；&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;目标要有意义。&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;费曼技巧&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;这部分貌似在英文原著里没有，但我觉得挺重要的。&lt;/p&gt;
+
+&lt;p&gt;简而言之，就是假设你要给一名小白讲解这个知识点，用尽量简洁的表述让他听懂，如果有不知道如何表述的地方，那就回过头把它搞懂。&lt;/p&gt;
+
+&lt;p&gt;让我想起不知道在哪看的一句话：「我讲的你听懂了，代表我掌握了，不是你」。&lt;/p&gt;
+
+&lt;p&gt;还想起是不是华罗庚也经常用这个法子……&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;超越整体性学习&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;一、高效秘籍&lt;/p&gt;
+
+&lt;p&gt;二、自我教育&lt;/p&gt;
+
+&lt;p&gt;一些自我教育的网上资源：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;MIT OpenCourseWare&lt;/li&gt;
+  &lt;li&gt;EHow.com&lt;/li&gt;
+  &lt;li&gt;FreeEd.net&lt;/li&gt;
+  &lt;li&gt;Portal to Free Online Courses&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;书籍和网站&quot;&gt;书籍和网站&lt;/h3&gt;
+
+&lt;p&gt;书中提到了很多书籍，在第三部分的最后一节里也列举了一些高效率相关的网址和书籍，收集如下：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;书籍&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://book.douban.com/subject/2031439/&quot;&gt;Breakthrough Rapid Reading&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://book.douban.com/subject/26298597/&quot;&gt;我们赖以生存的隐喻&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://book.douban.com/subject/1316569/&quot;&gt;Getting Things Done&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://book.douban.com/subject/1884867/&quot;&gt;The Power of Full Engagement&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://book.douban.com/subject/3296364/&quot;&gt;Zen To Done&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://book.douban.com/subject/2516411/&quot;&gt;How to Become a Straight-A Student&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://book.douban.com/subject/2301314/&quot;&gt;How to Win at College&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;网址&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ScottHYoung.com&lt;/li&gt;
+  &lt;li&gt;ZenHabits.net&lt;/li&gt;
+  &lt;li&gt;Lifehack.org&lt;/li&gt;
+  &lt;li&gt;PickTheBrain.com&lt;/li&gt;
+  &lt;li&gt;StudyHacks&lt;/li&gt;
+  &lt;li&gt;StevePavlina.com&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;参考&quot;&gt;参考&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://book.douban.com/subject/25783654/&quot;&gt;https://book.douban.com/subject/25783654/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://book.douban.com/subject/11603298/&quot;&gt;https://book.douban.com/subject/11603298/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.zhihu.com/question/20571226&quot;&gt;https://www.zhihu.com/question/20571226&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.scotthyoung.com/blog/myprojects/mit-challenge-2/#6&quot;&gt;https://www.scotthyoung.com/blog/myprojects/mit-challenge-2/#6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.scotthyoung.com/&quot;&gt;https://www.scotthyoung.com/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.zhihu.com/question/23043048&quot;&gt;https://www.zhihu.com/question/23043048&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.zhihu.com/pub/book/119554615&quot;&gt;https://www.zhihu.com/pub/book/119554615&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.scotthyoung.com/blog/2008/02/06/20-tips-for-batching-to-save-time-and-cut-stress/&quot;&gt;https://www.scotthyoung.com/blog/2008/02/06/20-tips-for-batching-to-save-time-and-cut-stress/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Mon, 05 Oct 2020 09:00:00 -0700</pubDate>
+        <link>http://localhost:4000/myProject/2020/10/05/how-to-learn/</link>
+        <guid isPermaLink="true">http://localhost:4000/myProject/2020/10/05/how-to-learn/</guid>
+        
+        <category>学习</category>
+        
+        
+        <category>学习</category>
+        
+      </item>
+    
+      <item>
+        <title>白居易北美买房指北&lt;3&gt; - BRRRR策略</title>
         <description>&lt;h2&gt;BRRRR 策略&lt;/h2&gt;
 
 &lt;p&gt;Buy, Rehab, Refi, Rental, Repeat&lt;/p&gt;
 
-&lt;p&gt;第一个步骤就是买房子&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第一个步骤就是买房子&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;买房子需要买低于平均值很多的房子, 买stress sale, 有可能是法拍房，去county找到法拍日期，然后看房子，去找whole saler&lt;/p&gt;
 
-&lt;p&gt;第二步就是需要rehab&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第二步就是需要rehab&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Rehab有什么技巧呢, 买房子之前你需要有个衡量, 你要知道你需要多少钱需要去维修
 ， rehab flipping有什么区别呢,&lt;/p&gt;
 
-&lt;p&gt;第三步就是需要rent&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第三步就是需要rent&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;第四步是 房子已经租出去了之后, 有了固定的现金流之后, 需要refi, 重新估值，以22万估价，套出来15万&lt;/p&gt;
+&lt;p&gt;第四步是 房子已经租出去了之后, 有了固定的现金流之后, 需要refi, 重新估值，以22万估价，套出来15万， 空手套白狼&lt;/p&gt;
 
 </description>
         <pubDate>Tue, 22 Sep 2020 09:00:00 -0700</pubDate>
@@ -41,37 +642,39 @@
       </item>
     
       <item>
-        <title>白居易北美买房指北&lt;2&gt;</title>
-        <description>&lt;h2&gt;买Sacamateo的房子 还是Dallas的房子&lt;/h2&gt;
+        <title>白居易北美买房指北&lt;4&gt; - 达拉斯or萨克门托</title>
+        <description>&lt;h3 id=&quot;买sacamateo的房子-还是dallas的房子&quot;&gt;买Sacamateo的房子 还是Dallas的房子&lt;/h3&gt;
 
-&lt;p&gt;这一周我在纠结是买达拉斯的房子还是买沙城的房子, 先说一个概况吧，我在zillow上面看了一下沙城的房子，基本上能住的就是35万以上, 35万以下的房子基本看不上眼, 而德州在30万一下的房子,还是有新房的&lt;/p&gt;
+&lt;p&gt;这一周我在纠结是买达拉斯的房子还是买沙城的房子, 先说一个概况吧，我在zillow上面看了一下沙城的房子，基本上能住的就是35万以上, 35万以下的房子基本看不上眼, 而德州在30万一下的房子,还是有新房的
+买沙城的房子和买dallas的房子，本质上还是投资，因为新冠疫情的原因, 我可以去那边稍稍的住一下&lt;/p&gt;
 
-&lt;p&gt;买沙城的房子和买dallas的房子，本质上还是投资，因为新冠疫情的原因, 我可以去那边稍稍的住一下&lt;/p&gt;
+&lt;p&gt;先列一下沙城优缺点吧&lt;/p&gt;
 
-&lt;p&gt;先列一下沙城的优点吧&lt;/p&gt;
-
-&lt;p&gt;优点:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;沙城优点&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;最大的优点就是离湾区比较近，非常好管理，就算是疫情过去了，这个房子还是可以自己管理，省去了每个月百分之十的管理费用&lt;/li&gt;
-  &lt;li&gt;第二个优点还是近, 湾区的房子我随时都可以退掉, 这样的话，我每个月少付了1800美元的管理费用&lt;/li&gt;
+  &lt;li&gt;第二个优点还是近, 湾区的房子我随时都可以退掉, 这样的话，我每个月少付了1800美元的租房费用&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;缺点:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;沙城缺点&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;首先是单价贵, 要买一个像样的房子, 预算需要提高到35万到40万左右，如果是投资的话，现金流就根本没有&lt;/li&gt;
   &lt;li&gt;沙城城市和dallas比起来的话, dallas还有国际机场，明显比不上dallas&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;再列一下dallas城的优点&lt;/p&gt;
+&lt;p&gt;再列一下dallas城的优缺点&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;达拉斯优点&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;dallas的优点就是，城市比沙城有活力, 产业结构比较多元，增值的空间比较大&lt;/li&gt;
   &lt;li&gt;dallas的房屋单价比较便宜, 首付比较低&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;缺点：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;达拉斯缺点&lt;/strong&gt;&lt;/p&gt;
+
 &lt;ol&gt;
   &lt;li&gt;离湾区太远了，如果真的搬家到哪里的话，还挺折腾的&lt;/li&gt;
   &lt;li&gt;房地产税是百分之2.2左右, 25万的这样的话房屋持有成本基于房地产税的话，相当于Sacramento的40万的房子&lt;/li&gt;
@@ -79,11 +682,11 @@
 
 &lt;p&gt;下面我就拿德州20万, 30万的房子和沙城40万的房子比较一下吧，看一看他们的首付，月供，现金流到底是怎么样的&lt;/p&gt;
 
-&lt;p&gt;Dallas 30万&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Dallas 30万&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/myProject/styles/images/realestate/dallas30K.png&quot; alt=&quot;dallas30K&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;沙城 45万&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;沙城 45万&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/myProject/styles/images/realestate/sacramento450k.png&quot; alt=&quot;sacramento450k&quot; /&gt;&lt;/p&gt;
 
@@ -104,7 +707,7 @@
       </item>
     
       <item>
-        <title>白居易北美买房指北&lt;2&gt;</title>
+        <title>白居易北美买房指北&lt;2&gt; - 自住房, 度假屋，投资房</title>
         <description>&lt;h2&gt;买房筑基篇一&lt;/h2&gt;
 
 &lt;p&gt;在白居易买房指北&amp;lt;1&amp;gt;, 描述了买房的基本流程, 让我们有了一个对买房的脉络有了个大致的了解。&lt;/p&gt;
@@ -147,8 +750,8 @@
       </item>
     
       <item>
-        <title>白居易北美买房指北&lt;1&gt;</title>
-        <description>&lt;h2&gt;买房第一步&lt;/h2&gt;
+        <title>白居易北美买房指北&lt;1&gt; - 买房十一步</title>
+        <description>&lt;p&gt;###买房第一步&lt;/p&gt;
 
 &lt;p&gt;博主本人目前居住在北美圣何塞地区，鉴于最近的形势，covid-19爆发导致全球央行大放水, 美国的购房贷款利率也是达到了前所未有的地点，网上很多人晒出来的贷款利率只有百分之2.5左右，可以说这是一个前所未有的买房的好时机，旧金山湾区房价也是在这一年创出了新高。&lt;/p&gt;
 
@@ -279,744 +882,6 @@ Failure表示是测试失败， 就是预期的结果和实际的结果不太一
         <guid isPermaLink="true">http://localhost:4000/myProject/2019/03/04/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E7%BC%96%E7%A8%8B/</guid>
         
         <category>学习笔记</category>
-        
-        
-        <category>计算机技术</category>
-        
-      </item>
-    
-      <item>
-        <title>Java面试基础知识</title>
-        <description>&lt;h1&gt;JDK, JRE, JVM&lt;/h1&gt;
-
-&lt;p&gt;https://www.edureka.co/blog/interview-questions/java-interview-questions/#basic&lt;/p&gt;
-
-&lt;p&gt;JDK: It stands for Java Development Kit
-JRE: It stands for Java RunTime Environment&lt;/p&gt;
-
-&lt;h3&gt;Q5. What are wrapper classes? &lt;/h3&gt;
-
-&lt;p&gt;Wrapper classes converts the java primitives into the reference types (objects)&lt;/p&gt;
-
-&lt;h3&gt;Q6. What are constructors in Java? &lt;/h3&gt;
-
-&lt;p&gt;In Java, constructor refers to a block of code which is used to initialize an object. It must have the same name as that of the class. Also, it has no return type and it is automatically called when an object is created.&lt;/p&gt;
-
-&lt;h3&gt;Q7. What is singleton class and how can we make a class singleton? &lt;/h3&gt;
-&lt;p&gt;Singleton class is a class whose only one instance can be created at any given time, in one JVM. A class can be made singleton by making its constructor private.&lt;/p&gt;
-
-&lt;h3&gt; Q8. What is the difference between abstract classes and interfaces? &lt;/h3&gt;
-
-&lt;p&gt;Abstract Class  and Interfaces&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;An abstract class can provide complete, default code and/or just the details that have to be overridden.&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;An interface cannot provide any code at all,just the signature.
-In case of abstract class, a class may extend only one abstract class.  A Class may implement several interfaces.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;An abstract class can have non-abstract methods.&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;All methods of an Interface are abstract.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;An abstract class can have instance variables.&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;An Interface cannot have instance variables&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;An abstract class can have any visibility: public, private, protected.  An +&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Interface visibility must be public (or) none.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;If we add a new method to an abstract class then we have the option of providing + default implementation and therefore all the existing code might work properly&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;If we add a new method to an Interface then we have to track down all the&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;implementations of the interface and define implementation for the new method&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;An abstract class can contain constructors&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;An Interface cannot contain constructors&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Abstract classes are fast&lt;/li&gt;
-  &lt;li&gt;Interfaces are slow as it requires extra indirection to find corresponding method in the actual class&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Q4. What is method overloading and method overriding?&lt;/h3&gt;
-&lt;p&gt;Method Overloading :&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;In Method Overloading, Methods of the same class shares the same name but each method must have different number of parameters or parameters having different types and order.&lt;/li&gt;
-  &lt;li&gt;Method Overloading is to “add” or “extend” more to method’s behavior.&lt;/li&gt;
-  &lt;li&gt;It is a compile time polymorphism.&lt;/li&gt;
-  &lt;li&gt;The methods must have different signature.
-It may or may not need inheritance in Method Overloading.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Method Overriding:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;In Method Overriding, sub class have the same method with same name and exactly the same number and type of parameters and same return type as a super class.&lt;/li&gt;
-  &lt;li&gt;Method Overriding is to “Change” existing behavior of method.&lt;/li&gt;
-  &lt;li&gt;It is a run time polymorphism.&lt;/li&gt;
-  &lt;li&gt;The methods must have same signature.&lt;/li&gt;
-  &lt;li&gt;It always requires inheritance in Method Overriding.&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Mon, 04 Mar 2019 09:00:00 -0800</pubDate>
-        <link>http://localhost:4000/myProject/2019/03/04/Java%E9%9D%A2%E8%AF%95/</link>
-        <guid isPermaLink="true">http://localhost:4000/myProject/2019/03/04/Java%E9%9D%A2%E8%AF%95/</guid>
-        
-        <category>面试</category>
-        
-        
-        <category>计算机技术</category>
-        
-      </item>
-    
-      <item>
-        <title>Cruise 面试</title>
-        <description>&lt;li&gt;Vampire Number&lt;/li&gt;
-&lt;li&gt;wildcard matching&lt;/li&gt;
-&lt;li&gt;range sum&lt;/li&gt;
-&lt;li&gt;就是有一堆词，可能有重复,统计每个词的频率&lt;/li&gt;
-&lt;li&gt;迷宫找路&lt;/li&gt;
-
-&lt;p&gt;In mathematics, a vampire number (or true vampire number) is a composite natural number v, with an even number of digits n, that can be factored into two integers x and y each with n/2 digits and not both with trailing zeroes, where v contains precisely all the digits from x and from y, in any order, counting multiplicity. x and y are called the fangs.&lt;/p&gt;
-
-&lt;p&gt;翻译过来 需要满足三个条件
-length of this number should be odd or digit count should odd ( 读音daode )&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Vampire Number 必须是含有偶数个digit&lt;/li&gt;
-  &lt;li&gt;Vampire Number 可以被分为2个部分, x, y . x,y 的尾部是不含0的&lt;/li&gt;
-  &lt;li&gt;x, y 里面的每一位都会在V里面找到&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;判断一个数是不是Vampire number, 或者找一个Vampire number的方法如下，for example
-我们需要找Vampire Number 1206的fangs&lt;/p&gt;
-
-&lt;p&gt;首先我们要知道 1206的 各种permutation组合 共有 24种&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;getPermutation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
-
-    &lt;span class=&quot;n&quot;&gt;res&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;temp&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;num_str&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'1206'&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;used&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'1206'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;used&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;dfs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;temp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;used&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;num_str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;res&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;res&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;dfs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;temp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;used&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;num_str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;temp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num_str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;res&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;temp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num_str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)):&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;used&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;num_str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;num_str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;used&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]):&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;continue&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;used&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;temp&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num_str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;dfs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;temp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;used&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;num_str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;temp&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;used&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;itertools&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;it&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;# function to get the required fangs of the
-# vampire number
-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;getFangs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num_str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-
-	&lt;span class=&quot;c1&quot;&gt;# to get all possible orderings of order that
-&lt;/span&gt;	&lt;span class=&quot;c1&quot;&gt;# is equal to the number of digits of the
-&lt;/span&gt;	&lt;span class=&quot;c1&quot;&gt;# vampire number
-&lt;/span&gt;	&lt;span class=&quot;n&quot;&gt;num_iter&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;it&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;permutations&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num_str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num_str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-	&lt;span class=&quot;c1&quot;&gt;# creating the possible pairs of number by
-&lt;/span&gt;	&lt;span class=&quot;c1&quot;&gt;# brute forcing, then checking the condition
-&lt;/span&gt;	&lt;span class=&quot;c1&quot;&gt;# if it satisfies what it takes to be the fangs
-&lt;/span&gt;	&lt;span class=&quot;c1&quot;&gt;# of a vampire number
-&lt;/span&gt;	&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;num_list&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;num_iter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-	    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num_list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-	    &lt;span class=&quot;n&quot;&gt;v&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;''&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num_list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-	    &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;v&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[:&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;v&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;v&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;v&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):]&lt;/span&gt;
-	    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'0'&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'0'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-	        &lt;span class=&quot;k&quot;&gt;continue&lt;/span&gt;
-		&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num_str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-		    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;# function to check whether the given number is
-# vampire or not
-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;isVampire&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;m_int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-
-	&lt;span class=&quot;c1&quot;&gt;# converting the vampire number to string
-&lt;/span&gt;	&lt;span class=&quot;n&quot;&gt;n_str&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;m_int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-	&lt;span class=&quot;c1&quot;&gt;# if no of digits in the number is odd then
-&lt;/span&gt;	&lt;span class=&quot;c1&quot;&gt;# return false
-&lt;/span&gt;	&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-		&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;
-
-	&lt;span class=&quot;c1&quot;&gt;# getting the fangs of the number
-&lt;/span&gt;	&lt;span class=&quot;n&quot;&gt;fangs&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;getFangs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-	&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fangs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-		&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;
-	&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;# main driver programm
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;16000&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;test_num&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-	&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isVampire&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;test_num&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-		&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{}&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;test_num&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;end&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;, &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h3&gt;就是有一堆词，可能有重复,统计每个词的频率&lt;/h3&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;heapq&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;FreqWord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;object&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;freq&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;word&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;freq&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;freq&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;word&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;word&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__cmp__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;other&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;freq&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;other&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;freq&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;cmp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;freq&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;other&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;freq&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;cmp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;other&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;word&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;word&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Solution&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;object&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;topKFrequent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;words&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;
-        :type words: List[str]
-        :type k: int
-        :rtype: List[str]
-        &quot;&quot;&quot;&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;heap&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;counter&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;collections&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Counter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;words&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;word&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;freq&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;counter&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;items&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
-            &lt;span class=&quot;c1&quot;&gt;# print 'freq', freq
-&lt;/span&gt;            &lt;span class=&quot;c1&quot;&gt;# print 'word', word
-&lt;/span&gt;            &lt;span class=&quot;n&quot;&gt;heapq&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;heappush&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;heap&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;FreqWord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;freq&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;word&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;heap&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;heapq&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;heappop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;heap&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;heapq&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;heappop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;heap&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;word&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;xrange&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)][::&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h3&gt;迷宫找路&lt;/h3&gt;
-&lt;p&gt;迷宫找路问题, 今天早上看了一个帖子比较好，上面分析了迷宫找路这个问题，可以想一下用dfs和bfs找路分别有什么优缺点&lt;/p&gt;
-
-&lt;h4&gt;DFS找路&lt;/h4&gt;
-&lt;p&gt;优点: 无需像广度优先搜索那样（BFS）记录前驱结点（the node in front of current node）
-缺点：找到的第一条可行路径不一定是最短路径，如果需要找到最短路径，那么需要找出所有可行路径后，再逐一比较，求出最短路径。&lt;/p&gt;
-
-&lt;p&gt;值得注意的点:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;注意当我们找到节点 满足条件, x == endX and y == endY的时候, 需要将该节点变成
-matrix[endX][endY] == 0, 这样的话, 我们可以得到更多的路径&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;还有一点值得我们注意的就是, dfs这样的遍历的时间复杂度是exponential time, 我们可以做一个memorization的操作, 去减少这些时间复杂度, 这样的话, 我们就可以把时间复杂度减为O(m*n)&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;代码如下:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;n&quot;&gt;matrix&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 0
-&lt;/span&gt;    &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 1
-&lt;/span&gt;    &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 2
-&lt;/span&gt;    &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 3
-&lt;/span&gt;    &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 4
-&lt;/span&gt;    &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 5
-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;start&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;end&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;stack&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;directions&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]]&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;dfs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;matrix&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;endX&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;endY&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-
-    &lt;span class=&quot;n&quot;&gt;matrix&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-
-    &lt;span class=&quot;n&quot;&gt;stack&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
-
-    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;endX&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;endY&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;printPath&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'---------'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;matrix&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
-
-    &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;dir&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;directions&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;dir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;dir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;matrix&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;matrix&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]):&lt;/span&gt;
-                &lt;span class=&quot;k&quot;&gt;continue&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;matrix&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;dfs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;matrix&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;endX&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;endY&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;stack&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;matrix&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
-
-
-&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;printPath&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;res&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stack&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)):&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;res&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stack&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;res&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;res&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;dfs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;matrix&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;https://codereview.stackexchange.com/questions/156961/reversing-strings-inside-parentheses&lt;/p&gt;
-
-&lt;p&gt;
-Cruise Automation的电面
-题目是给一个m*n的matrix
-形如
-&lt;li style=&quot;list-style-type:none;&quot;&gt;&lt;/li&gt;
-5 7 3 4
-&lt;li style=&quot;list-style-type:none;&quot;&gt;&lt;/li&gt;
-2 5 8 1
-&lt;li style=&quot;list-style-type:none;&quot;&gt;&lt;/li&gt;
-2 4 2 1
-&lt;li style=&quot;list-style-type:none;&quot;&gt;&lt;/li&gt;
-
-每一行取一个数字组成sum，比如5+2+2=9, 求一个List返回前K个最大的sum值，和Leetcode上其实类似，time complexity最好的方法应该是O(mnlogn)
-&lt;br /&gt;
-补充内容 (2018-11-29 08:48):
-错了,应该是O(Kmlogn+mnlogn) 类似 https://leetcode.com/problems/find-k-pairs-with-smallest-sums/&lt;/p&gt;
-
-</description>
-        <pubDate>Fri, 01 Mar 2019 09:00:00 -0800</pubDate>
-        <link>http://localhost:4000/myProject/2019/03/01/Cruise/</link>
-        <guid isPermaLink="true">http://localhost:4000/myProject/2019/03/01/Cruise/</guid>
-        
-        <category>面试</category>
-        
-        
-        <category>计算机技术</category>
-        
-      </item>
-    
-      <item>
-        <title>Google面试准备</title>
-        <description>&lt;h1&gt;LeetCode 187. Repeated DNA Sequences&lt;/h1&gt;
-
-&lt;p&gt;首先这道题可以用HashMap来做, 每次截取长度为10的字符串， 放在HashMap里面去, HashMap的key是String, value是整数,&lt;/p&gt;
-
-&lt;p&gt;一个字符在UTF-8里面, 一个英文字符等于一个字节，一个中文（含繁体）等于三个字节, 所以10个英文字符, 就是相当于10 * 3 = 30个字节 就相当于240位&lt;/p&gt;
-
-&lt;p&gt;计算机是美国人发明的, 因此, 最早只有127个字符被编码到计算机里, 也就是大小写英文字母, 数字和一些符号, 这个编码表被称为ASCII编码, 比如大写字母A的编码是65, 小写字母z的编码是122，但是处理中文显然一个字节是不够的,至少需要2个字节, 中国制定了GB2312编码，用来把中文编进去。但可以想到的是全世界有上百种语言, 日本把日文编辑到Shift_JIS里面,各国都有各国的标准,所以Unicode就应运而生了,Unicode是把所有的语言都统一到一套编码中.&lt;/p&gt;
-
-&lt;p&gt;最新Python 3的版本中,字符串是以Unicode编码的&lt;/p&gt;
-
-&lt;p&gt;由于Python的字符串类型是str，在内存中以Unicode表示，一个字符对应若干个字节。如果要在网络上传输，或者保存到磁盘上，就需要把str变为以字节为单位的bytes。&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;table&gt;
-      &lt;tbody&gt;
-        &lt;tr&gt;
-          &lt;td&gt;按位或运算 按位或运算符“&lt;/td&gt;
-          &lt;td&gt;”是双目运算符。其功能是参与运算的两数各对应的二进位相或。只要对应的二个二进位有一个为1时，结果位就为1。参与运算的两个数均以补码出现。&lt;/td&gt;
-          &lt;td&gt; &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-          &lt;td&gt;例如：9&lt;/td&gt;
-          &lt;td&gt;5可写算式如下： 00001001&lt;/td&gt;
-          &lt;td&gt;00000101&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-          &lt;td&gt;00001101 (十进制为13)可见9&lt;/td&gt;
-          &lt;td&gt;5=13&lt;/td&gt;
-          &lt;td&gt; &lt;/td&gt;
-        &lt;/tr&gt;
-      &lt;/tbody&gt;
-    &lt;/table&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h1&gt;Guess The Word&lt;/h1&gt;
-&lt;p&gt;题目大致的意思就是在一个wordlist里面, 我们有一个exactly word是match的，如果我们随机的去猜一个数，会返回多个字符匹配exactly这个单词的&lt;/p&gt;
-
-&lt;h1&gt;LeetCode 904: Fruit Into Baskets&lt;/h1&gt;
-
-&lt;p&gt;题意是有一排树, 第ith tree的数组的值tree[i], 代表tree type = tree[i]&lt;/p&gt;
-
-&lt;p&gt;在数组里面随机选一个数,然后随机的去重复以下步骤,&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;往篮子里面放tree&lt;/li&gt;
-  &lt;li&gt;看右边的树, 如果右边没有树了，就停止&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;perform step 1 and step 2, then back to step 1, and so on until you stop&lt;/p&gt;
-
-&lt;p&gt;之后你只有2个篮子, 这2个篮子里面可以任意数量的的水果, 返回&lt;/p&gt;
-
-&lt;p&gt;example 1:
-Input: [1, 2, 1]
-Output: 3
-Explanation: We can collect [1,2,1]&lt;/p&gt;
-
-&lt;p&gt;本质上就是longest substring with at most two characters&lt;/p&gt;
-
-&lt;p&gt;思路就是创建一个HashMap 如果map的size小于2的时候，放进去map中，key是tree[i], value是index
-当map的size大于 2的时候, 获取到min_index of tree type, 这个必须是在 if len(map) &amp;gt; 2的statement中
-因为min_index 每次都需要更新&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;class Solution {
-    public int totalFruit(int[] tree) {
-        HashMap&amp;lt;Integer, Integer&amp;gt; map = new HashMap&amp;lt;&amp;gt;();
-
-        int i = 0;
-        int j = 0;
-        int max = 0;
-        while (j &amp;lt; tree.length) {
-            if (map.size() &amp;lt;= 2) {
-                map.put(tree[j], j++);
-            }
-            if (map.size() &amp;gt; 2) {
-                int minIndex = tree.length - 1;
-                for (Integer value: map.values()) {
-                    minIndex = Math.min(minIndex, value);
-                    i = minIndex + 1;
-                }
-                map.remove(tree[minIndex]);
-            }
-
-            max = Math.max(max, j - i);
-        }
-        return max;
-    }
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-</description>
-        <pubDate>Fri, 01 Mar 2019 09:00:00 -0800</pubDate>
-        <link>http://localhost:4000/myProject/2019/03/01/Repeat_DNA_Seqences/</link>
-        <guid isPermaLink="true">http://localhost:4000/myProject/2019/03/01/Repeat_DNA_Seqences/</guid>
-        
-        <category>刷题</category>
-        
-        
-        <category>计算机技术</category>
-        
-      </item>
-    
-      <item>
-        <title>Trie模板</title>
-        <description>&lt;li&gt;208. Implement Trie (Prefix Tree)&lt;/li&gt;
-&lt;p&gt;想总结一下关于Trie Tree的题目, 包括 TrieNode应该怎么定义，TrieNode的children应该定义为dictionary, 还是应该定义为数组,&lt;/p&gt;
-
-&lt;p&gt;TrieNode的children 定义为字典&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;TrieNode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;object&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;isEnd&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;children&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;dict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h3&gt;&lt;/h3&gt;
-&lt;p&gt;class TrieNode():
-    def &lt;strong&gt;init&lt;/strong&gt;(self):
-        self.children = collections.defaultdict(TrieNode)
-        self.isWord = False&lt;/p&gt;
-
-&lt;p&gt;class WordDictionary(object):&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def __init__(self):
-    &quot;&quot;&quot;
-    Initialize your data structure here.
-    &quot;&quot;&quot;
-    self.root = TrieNode()
-    
-
-def addWord(self, word):
-    &quot;&quot;&quot;
-    Adds a word into the data structure.
-    :type word: str
-    :rtype: void
-    &quot;&quot;&quot;
-    node = self.root
-    for w in word:
-        node = node.children[w]
-    node.isWord = True
-    
-
-def search(self, word):
-    &quot;&quot;&quot;
-    Returns if the word is in the data structure. A word could contain the dot character '.' to represent any one letter.
-    :type word: str
-    :rtype: bool
-    &quot;&quot;&quot;
-    node = self.root
-    self.res = False
-    self.dfs(node, word)
-    return self.res
-
-def dfs(self, node, word):
-    if not word:
-        if node.isWord:
-            self.res = True
-        return
-    
-    if word[0] == &quot;.&quot;:
-        for n in node.children.values():
-            self.dfs(n, word[1:])
-    else:
-        node = node.children.get(word[0])
-        if not node:
-            return
-        self.dfs(node, word[1:])
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-</description>
-        <pubDate>Tue, 01 Jan 2019 09:00:00 -0800</pubDate>
-        <link>http://localhost:4000/myProject/2019/01/01/Trie%E6%A8%A1%E6%9D%BF/</link>
-        <guid isPermaLink="true">http://localhost:4000/myProject/2019/01/01/Trie%E6%A8%A1%E6%9D%BF/</guid>
-        
-        <category>刷题</category>
-        
-        
-        <category>计算机技术</category>
-        
-      </item>
-    
-      <item>
-        <title>Uber准备</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;content&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;li&gt;Min Stack&lt;/li&gt;
-&lt;li&gt;Leetcode 230. Kth Smallest Element in a BST&lt;/li&gt;
-&lt;li&gt;Permutation I &amp;amp;&amp;amp; Permutation II&lt;/li&gt;
-&lt;li&gt;Course Schedule I, II&lt;/li&gt;
-&lt;li&gt;LeetCode287. Find Duplicate Number&lt;/li&gt;
-&lt;li&gt;Leetcode 99. Recover Binary Search Tree&lt;/li&gt;
-&lt;li&gt;Leetcide 652. Find Duplicate Subtrees&lt;/li&gt;
-&lt;li&gt;&lt;a&gt;LeetCode215. Kth Largest Element in an Array &lt;/a&gt;&lt;/li&gt;
-
-&lt;p&gt;之前解决这道题的时候, 是创建2个stack, 然后无脑的往stack里面push元素, 在这里，不妨去思考一下什么时候需要push, 什么时候不需要push, 创建一个stack2里面是最小的元素, 只有当新进来的元素，比stack2的栈顶元素要小的时候，才需要把元素给push进去&lt;/p&gt;
-
-&lt;p&gt;什么时候需要pop stack2呢 就是 stack2的top元素和stack1的元素进行比较，如果他们相同的话, 就需要把该元素给pop出去&lt;/p&gt;
-
-&lt;li&gt;Leetcode 230. Kth Smallest Element in a BST&lt;/li&gt;
-&lt;p&gt;在BST里面找到第K个大小的元素, 这样的题目可以用递归的做法, 可以用非递归的做法, 非递归的做法就是 非递归的去中序inorder遍历一棵树， 非递归的inorder的做法值得注意的就是每次往stack里面去push元素的时候, 都是在第二个while循环里面, 在第一个循环的结尾处, 改变root的指向&lt;/p&gt;
-
-&lt;h3&gt;Leetcode516: Longest Palindromic Subsequence&lt;/h3&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Solution&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;object&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;longestPalindromeSubseq&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;
-        :type s: str
-        :rtype: int
-        &quot;&quot;&quot;&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;lps&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;seq&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt; 
-
-            &lt;span class=&quot;c1&quot;&gt;# Base Case 1: If there is  
-&lt;/span&gt;            &lt;span class=&quot;c1&quot;&gt;# only 1 character  
-&lt;/span&gt;            &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt; 
-                &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-
-            &lt;span class=&quot;c1&quot;&gt;# Base Case 2: If there are only 2  
-&lt;/span&gt;            &lt;span class=&quot;c1&quot;&gt;# characters and both are same  
-&lt;/span&gt;            &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;seq&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;seq&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt; 
-                &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
-
-            &lt;span class=&quot;c1&quot;&gt;# If the first and last characters match  
-&lt;/span&gt;            &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;seq&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;seq&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]):&lt;/span&gt; 
-                &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lps&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;seq&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
-
-            &lt;span class=&quot;c1&quot;&gt;# If the first and last characters 
-&lt;/span&gt;            &lt;span class=&quot;c1&quot;&gt;# do not match  
-&lt;/span&gt;            &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lps&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;seq&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;  
-                       &lt;span class=&quot;n&quot;&gt;lps&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;seq&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-        
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lps&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;lps&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt; 
-    &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; 
-  
-    &lt;span class=&quot;c1&quot;&gt;# Create a table to store results of subproblems 
-&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;L&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)]&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)]&lt;/span&gt; 
-  
-    &lt;span class=&quot;c1&quot;&gt;# Strings of length 1 are palindrome of length 1 
-&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt; 
-        &lt;span class=&quot;n&quot;&gt;L&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-  
-    &lt;span class=&quot;c1&quot;&gt;# Build the table. Note that the lower  
-&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# diagonal values of table are 
-&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# useless and not filled in the process.  
-&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# The values are filled in a 
-&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# manner similar to Matrix Chain  
-&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# Multiplication DP solution (See 
-&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# https://www.geeksforgeeks.org/dynamic-programming-set-8-matrix-chain-multiplication/ 
-&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# cl is length of substring 
-&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cl&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt; 
-        &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt; 
-            &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cl&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; 
-                &lt;span class=&quot;n&quot;&gt;L&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;elif&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt; 
-                &lt;span class=&quot;n&quot;&gt;L&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;L&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; 
-                &lt;span class=&quot;n&quot;&gt;L&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;L&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;L&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt; 
-  
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;L&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h3&gt;Course Schedule I II&lt;/h3&gt;
-
-&lt;p&gt;Course Schedule的本质就是有向图中找环的问题 图中找环可以用2种方法来做，&lt;/p&gt;
-
-&lt;p&gt;第一种方法就是用dfs, 但是对于图中的每一个点，需要对应三种状态, 
-
-这里我就想了一下，为什么对于2种状态的visited就不行呢, 因为是有向图, 举一个例子吧，就是对于下图, 刚开始从1开始遍历，1 指向2, 再指向3, 节点2，3 will be marked as visited point, however, then we start trave from node 4, when travel to node 4's neighbor, it has been reached to 3, 3 has been visited, but we could not say that this graph has cycle,
-
-1 -&amp;gt; 2 -&amp;gt; 3 &amp;lt;- 4      
-
-所以呢，我们就需要三种状态去标记, 我们无妨将这三种状态设为 -1, 0, 1, 初始的状态我们可以设为0, 如果在一条路径访问的时候，此时此刻的node设为-1, 当我们在遍历的过程当中发现了 此时此刻visted[i] = -1 我们就可以说，这个图中会有环, 当我们访问过之后，可以将改个节点标志为1， 下次进入dfs的函数中之后, 如果visited[i] == 1, just return true
-
-1 -&amp;gt; 2 -&amp;gt; 3 &amp;lt;- 4
-
-同样是这个例子, 让我们来走一个，刚开始的时候，是从图中的1开始遍历, 遍历node1的邻居2, 之后遍历node2的邻居 3，3没有邻居，所以我们的dfs函数开始返回, 直到返回到最上层，此时此刻node1, node2, node3 都被标记状态为1的节点了, 再从4开始遍历，遍历到node 3, node 3的状态为1, 所以返回, 此时此刻，我们就知道&lt;/p&gt;
-
-&lt;p&gt;还有一种方法就是拓扑排序, 拓扑排序的原理就是bfs,找到入度为0的节点, 在把其邻居节点的入度减去1&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Solution&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;object&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;canFinish&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;numCourses&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;prerequisites&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;
-        :type numCourses: int
-        :type prerequisites: List[List[int]]
-        :rtype: bool
-        &quot;&quot;&quot;&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;graph&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;collections&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;defaultdict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;indegree&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;collections&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;defaultdict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-        
-        &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;numCourses&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;indegree&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
-        
-        &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;prerequisite&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;prerequisites&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;graph&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;prerequisite&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;prerequisite&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;indegree&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;prerequisite&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-        &lt;span class=&quot;c1&quot;&gt;# print graph
-&lt;/span&gt;        &lt;span class=&quot;c1&quot;&gt;# print indegree
-&lt;/span&gt;        &lt;span class=&quot;n&quot;&gt;queue&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;key&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;indegree&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;keys&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;indegree&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;queue&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-                
-        &lt;span class=&quot;n&quot;&gt;count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;   
-        &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;queue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;size&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;queue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;k&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;cur_course&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;queue&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-                &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;graph&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cur_course&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-                    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nei&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;graph&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cur_course&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt;
-                        &lt;span class=&quot;n&quot;&gt;indegree&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;nei&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-                        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;indegree&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;nei&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-                            &lt;span class=&quot;n&quot;&gt;queue&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;nei&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;numCourses&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;做完这道题之后, 我想做一下其他关于拓扑排序的其他题目,巩固一下, So I picked up 787. leetcode787: Cheapest Flights Within K Stops, 这道题就是用拓扑排序找一下最短路径, 但是如何保存cost, 如何每次取最小的那个cost,  具体的思路如下&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;queue里面入的是 (node, src) 还需要一个result代表总的cost, 当dst等于src的时候,
-return min(result, neiCost)，你想着是return min(result, cost), 但是事实情况不是这样的，事实情况是如下图，从1开始遍历, 目标是到node 2&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;从1开始遍历的时候, 直接遍历到2，此时此刻result是400，直接return的话, 答案就不对了，所以还是要return 300的, 这里只是保存了一个result. 只有到最后的时候才去return 这个result&lt;/p&gt;
-
-&lt;p&gt;另外一个值得注意的地方就是, 如何去判断cost, cost + nei &amp;lt; result 的时候&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;   &lt;span class=&quot;mi&quot;&gt;200&lt;/span&gt;     &lt;span class=&quot;mi&quot;&gt;400&lt;/span&gt;  
-&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-----&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;------&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;                &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;              
-&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_____100________&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h3&gt;Leetcode287: find Duplicate number&lt;/h3&gt;
-&lt;p&gt;题目描述: 就是总共有n + 1个 Integer, 这 n + 1 个 整数里面有 1 到 n 个整数&lt;/p&gt;
-
-&lt;p&gt;这道题用hashmap做太简单了,时间复杂度, 空间复杂度都是O(n), 有没有什么办法可以不用O(n)的空间, 其实也很简单, 因为有n + 1个数, 而且数组里面的数都是介于 0 到 n 之间的, 所以可以将都是正数的数变成负数, 这样的话, 一旦发现数组里面的某一个index对应的数是负数的话,就说明这个数为duplicate的数&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;findDuplicate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;
-        :type nums: List[int]
-        :rtype: int
-        &quot;&quot;&quot;&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;num&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;temp&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;abs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;temp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-                &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;temp&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;temp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h3&gt;Leetcode 652. Find Duplicate Subtrees&lt;/h3&gt;
-
-&lt;p&gt;这道题出的非常好啊, 题目的大致意思就是给一个binary tree 要从其中找出来duplicate subtree的节点&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;首先如何去判断是substree是duplicate的,很自然的就想到了, 需要用hashmap，但是hashmap的key是什么, 如果保证key唯一，举个例子，如下图, 他们是不同的substree,&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;如果node为空的话, 直接返回空的的string,就会导致下面2个例子是一模一样的subtree, 明显和题目的意思不符合&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;如何将重复的node加进去呢, 我觉得判断dic[path] == 1的时候,加进去node特别巧妙, 这样的话, 就可以知道node是啥了&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;   &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;             &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
-    \         &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;
-     &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;         &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Solution&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;object&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;findDuplicateSubtrees&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;
-        :type root: TreeNode
-        :rtype: List[TreeNode]
-        &quot;&quot;&quot;&lt;/span&gt;
-        
-        &lt;span class=&quot;n&quot;&gt;dic&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;collections&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;defaultdict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;res&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;dfs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-            
-            &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;root&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-                &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'#'&lt;/span&gt;
-            
-            &lt;span class=&quot;n&quot;&gt;rootStr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;val&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;left&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dfs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;right&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dfs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-            
-            &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dic&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rootStr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;left&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;res&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rootStr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;left&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;right&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dic&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;dic&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rootStr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;left&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;dic&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rootStr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;left&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rootStr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;left&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;right&lt;/span&gt;
-        
-        &lt;span class=&quot;n&quot;&gt;dfs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;res&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h3&gt;LeetCode215. Kth Largest Element in an Array &amp;lt;/a&amp;gt;&lt;/h3&gt;
-
-&lt;h3&gt;Meeting Room II&lt;/h3&gt;
-
-&lt;p&gt;这道题用minHeap来做, 时间复杂度是O(n *logn), 对于heap来说的话, heap push 和heap pop的时间复杂度都是 logn的时间复杂度&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;第一种情况就是，新来的interval 的start是大于 min end的, 说明min end所在的那个interval 是可以可以被pop出去, 在新的interval里面push进去新的end&lt;/li&gt;
-&lt;/ol&gt;
-
-</description>
-        <pubDate>Tue, 01 Jan 2019 08:00:00 -0800</pubDate>
-        <link>http://localhost:4000/myProject/2019/01/01/Uber%E5%87%86%E5%A4%87/</link>
-        <guid isPermaLink="true">http://localhost:4000/myProject/2019/01/01/Uber%E5%87%86%E5%A4%87/</guid>
-        
-        <category>面试</category>
         
         
         <category>计算机技术</category>
